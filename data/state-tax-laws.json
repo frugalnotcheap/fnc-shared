@@ -1,0 +1,2845 @@
+{
+  "schemaVersion": 1,
+  "dataset": "state-tax-laws",
+  "asOfYear": 2026,
+  "states": {
+    "AK": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "http://tax.alaska.gov/"
+      ],
+      "notes": "No individual income tax.",
+      "code": "AK",
+      "name": "Alaska",
+      "type": "none"
+    },
+    "AL": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 500,
+            "rate": 0.02
+          },
+          {
+            "upTo": 3000,
+            "rate": 0.04
+          },
+          {
+            "upTo": null,
+            "rate": 0.05
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 1000,
+            "rate": 0.02
+          },
+          {
+            "upTo": 6000,
+            "rate": 0.04
+          },
+          {
+            "upTo": null,
+            "rate": 0.05
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 3000,
+        "mfj": 8500
+      },
+      "personalExemption": {
+        "single": 1500,
+        "mfj": 3000
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://revenue.alabama.gov/individual-corporate/individual-income-tax/"
+      ],
+      "notes": "Ala. Code § 40-18-5. Top rate 5% above $3,000 single / $6,000 MFJ. Social Security and defined-benefit pensions exempt.",
+      "code": "AL",
+      "name": "Alabama",
+      "type": "progressive"
+    },
+    "AR": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 4400,
+            "rate": 0.02
+          },
+          {
+            "upTo": 8800,
+            "rate": 0.03
+          },
+          {
+            "upTo": null,
+            "rate": 0.039
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 8800,
+            "rate": 0.02
+          },
+          {
+            "upTo": 17600,
+            "rate": 0.03
+          },
+          {
+            "upTo": null,
+            "rate": 0.039
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 2340,
+        "mfj": 4680
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 6000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.dfa.arkansas.gov/income-tax"
+      ],
+      "notes": "Ark. Code Ann. § 26-51-201 (Act 1 of 2024). Top rate 3.90%. Social Security exempt. $29 personal exemption tax credit ($58 MFJ). $6,000 retirement exclusion.",
+      "code": "AR",
+      "name": "Arkansas",
+      "type": "progressive",
+      "personalExemptionCredit": {
+        "single": 29,
+        "mfj": 58
+      }
+    },
+    "AZ": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.025,
+        "single": 0.025,
+        "mfj": 0.025
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "publicPensionExclusion": 2500,
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://azdor.gov/"
+      ],
+      "notes": "Flat 2.50% rate. Social Security benefits are 100% exempt from Arizona state tax (A.R.S. § 43-1022).",
+      "code": "AZ",
+      "name": "Arizona",
+      "type": "flat"
+    },
+    "CA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "rate": 0.01,
+            "upTo": 10756
+          },
+          {
+            "rate": 0.02,
+            "upTo": 25499
+          },
+          {
+            "rate": 0.04,
+            "upTo": 40245
+          },
+          {
+            "rate": 0.06,
+            "upTo": 55866
+          },
+          {
+            "rate": 0.08,
+            "upTo": 70606
+          },
+          {
+            "rate": 0.093,
+            "upTo": 360659
+          },
+          {
+            "rate": 0.103,
+            "upTo": 432787
+          },
+          {
+            "rate": 0.113,
+            "upTo": 721314
+          },
+          {
+            "rate": 0.123,
+            "upTo": 1000000
+          },
+          {
+            "rate": 0.133,
+            "upTo": null
+          }
+        ],
+        "mfj": [
+          {
+            "rate": 0.01,
+            "upTo": 21512
+          },
+          {
+            "rate": 0.02,
+            "upTo": 50998
+          },
+          {
+            "rate": 0.04,
+            "upTo": 80490
+          },
+          {
+            "rate": 0.06,
+            "upTo": 111732
+          },
+          {
+            "rate": 0.08,
+            "upTo": 141212
+          },
+          {
+            "rate": 0.093,
+            "upTo": 721318
+          },
+          {
+            "rate": 0.103,
+            "upTo": 865574
+          },
+          {
+            "rate": 0.113,
+            "upTo": 1000000
+          },
+          {
+            "rate": 0.123,
+            "upTo": 1442628
+          },
+          {
+            "rate": 0.133,
+            "upTo": null
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 5540,
+        "hoh": 11080,
+        "mfj": 11080,
+        "mfs": 5540
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.ftb.ca.gov/"
+      ],
+      "notes": "California progressive tax 1.0% to 12.3% plus 1.0% Mental Health Services Tax on taxable income exceeding $1,000,000 (total top rate 13.3%). Social Security benefits are 100% exempt (Cal. Rev. & Tax. Code § 17087).",
+      "code": "CA",
+      "name": "California",
+      "type": "progressive",
+      "personalExemptionCredit": {
+        "single": 149,
+        "hoh": 149,
+        "mfj": 298,
+        "mfs": 149
+      }
+    },
+    "CO": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.044,
+        "single": 0.044,
+        "mfj": 0.044
+      },
+      "standardDeduction": {
+        "single": 15000,
+        "hoh": 22500,
+        "mfj": 30000,
+        "mfs": 15000,
+        "followsFederal": true
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": {
+        "exemptAge65Plus": true,
+        "exemptBelowAgi": {
+          "single": 75000,
+          "hoh": 95000,
+          "mfj": 95000,
+          "mfs": 75000
+        }
+      },
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "age55To64": 20000,
+        "age65Plus": 24000,
+        "perPerson": true,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.colorado.gov/"
+      ],
+      "notes": "Flat 4.40% rate (Colo. Rev. Stat. § 39-22-104). Social Security benefits 100% exempt age 65+ (or AGI <= $75k single / $95k MFJ under 65). Pension/annuity subtraction up to $20,000 (55-64) or $24,000 (65+) per person.",
+      "code": "CO",
+      "name": "Colorado",
+      "type": "flat"
+    },
+    "CT": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 10000,
+            "rate": 0.02
+          },
+          {
+            "upTo": 50000,
+            "rate": 0.045
+          },
+          {
+            "upTo": 100000,
+            "rate": 0.055
+          },
+          {
+            "upTo": 200000,
+            "rate": 0.06
+          },
+          {
+            "upTo": 250000,
+            "rate": 0.065
+          },
+          {
+            "upTo": 500000,
+            "rate": 0.069
+          },
+          {
+            "upTo": null,
+            "rate": 0.0699
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 20000,
+            "rate": 0.02
+          },
+          {
+            "upTo": 100000,
+            "rate": 0.045
+          },
+          {
+            "upTo": 200000,
+            "rate": 0.055
+          },
+          {
+            "upTo": 400000,
+            "rate": 0.06
+          },
+          {
+            "upTo": 500000,
+            "rate": 0.065
+          },
+          {
+            "upTo": 1000000,
+            "rate": 0.069
+          },
+          {
+            "upTo": null,
+            "rate": 0.0699
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 15000,
+        "hoh": 19000,
+        "mfj": 24000,
+        "mfs": 12000
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": {
+        "exemptBelowAgi": {
+          "single": 75000,
+          "hoh": 100000,
+          "mfj": 100000,
+          "mfs": 75000
+        },
+        "maxTaxableFraction": 0.25
+      },
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "exemptRetirement": true,
+        "qualifiesPension": true,
+        "qualifiesIra": true,
+        "agiLimit": {
+          "single": 75000,
+          "hoh": 75000,
+          "mfj": 100000,
+          "mfs": 75000
+        }
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://portal.ct.gov/drs/individuals/individual-income-tax-information"
+      ],
+      "notes": "Conn. Gen. Stat. § 12-700 / § 12-701. Rates 2.0% to 6.99%. Social Security and pension/annuity/IRA distributions 100% exempt below $75k single / $100k MFJ AGI (SS capped at 25% of total benefits above threshold).",
+      "code": "CT",
+      "name": "Connecticut",
+      "type": "progressive"
+    },
+    "DC": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 10000,
+            "rate": 0.04
+          },
+          {
+            "upTo": 40000,
+            "rate": 0.06
+          },
+          {
+            "upTo": 60000,
+            "rate": 0.065
+          },
+          {
+            "upTo": 250000,
+            "rate": 0.085
+          },
+          {
+            "upTo": 500000,
+            "rate": 0.0925
+          },
+          {
+            "upTo": 1000000,
+            "rate": 0.0975
+          },
+          {
+            "upTo": null,
+            "rate": 0.1075
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 10000,
+            "rate": 0.04
+          },
+          {
+            "upTo": 40000,
+            "rate": 0.06
+          },
+          {
+            "upTo": 60000,
+            "rate": 0.065
+          },
+          {
+            "upTo": 250000,
+            "rate": 0.085
+          },
+          {
+            "upTo": 500000,
+            "rate": 0.0925
+          },
+          {
+            "upTo": 1000000,
+            "rate": 0.0975
+          },
+          {
+            "upTo": null,
+            "rate": 0.1075
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 15000,
+        "mfj": 30000
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://otr.cfo.dc.gov/page/individual-income-tax-service-center"
+      ],
+      "notes": "D.C. Code § 47-1806.03. Progressive brackets 4.0% to 10.75%. Social Security exempt.",
+      "code": "DC",
+      "name": "District of Columbia",
+      "type": "progressive"
+    },
+    "DE": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 2000,
+            "rate": 0
+          },
+          {
+            "upTo": 5000,
+            "rate": 0.022
+          },
+          {
+            "upTo": 10000,
+            "rate": 0.039
+          },
+          {
+            "upTo": 20000,
+            "rate": 0.048
+          },
+          {
+            "upTo": 25000,
+            "rate": 0.052
+          },
+          {
+            "upTo": 60000,
+            "rate": 0.0555
+          },
+          {
+            "upTo": null,
+            "rate": 0.066
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 4000,
+            "rate": 0
+          },
+          {
+            "upTo": 10000,
+            "rate": 0.022
+          },
+          {
+            "upTo": 20000,
+            "rate": 0.039
+          },
+          {
+            "upTo": 40000,
+            "rate": 0.048
+          },
+          {
+            "upTo": 50000,
+            "rate": 0.052
+          },
+          {
+            "upTo": 120000,
+            "rate": 0.0555
+          },
+          {
+            "upTo": null,
+            "rate": 0.066
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 3250,
+        "mfj": 6500
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "age60Plus": 12500,
+        "under60": 2000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://revenue.delaware.gov/individual-tax-rates/"
+      ],
+      "notes": "30 Del. C. § 1102. Rates 2.2% to 6.6%. Social Security exempt. $110 personal exemption tax credit ($220 MFJ). $12,500 exclusion for ages 60+.",
+      "code": "DE",
+      "name": "Delaware",
+      "type": "progressive",
+      "personalExemptionCredit": {
+        "single": 110,
+        "mfj": 220
+      }
+    },
+    "FL": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://floridarevenue.com/taxes/"
+      ],
+      "notes": "No state individual income tax (Fla. Const. art. VII, § 5).",
+      "code": "FL",
+      "name": "Florida",
+      "type": "none"
+    },
+    "GA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0499,
+        "single": 0.0499,
+        "mfj": 0.0499
+      },
+      "standardDeduction": {
+        "single": 15000,
+        "mfj": 30000
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "age62To64": 35000,
+        "age65Plus": 65000,
+        "perPerson": true,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://dor.georgia.gov/"
+      ],
+      "notes": "Flat 4.99% rate in 2026 (O.C.G.A. § 48-7-20, HB 463); $15k single / $30k MFJ personal exemption. Social Security exempt. Senior exclusion up to $35k (62-64) or $65k (65+) per person.",
+      "code": "GA",
+      "name": "Georgia",
+      "type": "flat"
+    },
+    "HI": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 2400,
+            "rate": 0.014
+          },
+          {
+            "upTo": 4800,
+            "rate": 0.032
+          },
+          {
+            "upTo": 9600,
+            "rate": 0.055
+          },
+          {
+            "upTo": 14400,
+            "rate": 0.064
+          },
+          {
+            "upTo": 19200,
+            "rate": 0.068
+          },
+          {
+            "upTo": 24000,
+            "rate": 0.072
+          },
+          {
+            "upTo": 36000,
+            "rate": 0.076
+          },
+          {
+            "upTo": 48000,
+            "rate": 0.079
+          },
+          {
+            "upTo": 150000,
+            "rate": 0.0825
+          },
+          {
+            "upTo": 175000,
+            "rate": 0.09
+          },
+          {
+            "upTo": 200000,
+            "rate": 0.1
+          },
+          {
+            "upTo": null,
+            "rate": 0.11
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 4800,
+            "rate": 0.014
+          },
+          {
+            "upTo": 9600,
+            "rate": 0.032
+          },
+          {
+            "upTo": 19200,
+            "rate": 0.055
+          },
+          {
+            "upTo": 28800,
+            "rate": 0.064
+          },
+          {
+            "upTo": 38400,
+            "rate": 0.068
+          },
+          {
+            "upTo": 48000,
+            "rate": 0.072
+          },
+          {
+            "upTo": 72000,
+            "rate": 0.076
+          },
+          {
+            "upTo": 96000,
+            "rate": 0.079
+          },
+          {
+            "upTo": 300000,
+            "rate": 0.0825
+          },
+          {
+            "upTo": 350000,
+            "rate": 0.09
+          },
+          {
+            "upTo": 400000,
+            "rate": 0.1
+          },
+          {
+            "upTo": null,
+            "rate": 0.11
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 4400,
+        "mfj": 8800
+      },
+      "personalExemption": {
+        "single": 1144,
+        "mfj": 2288
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.hawaii.gov/"
+      ],
+      "notes": "Haw. Rev. Stat. § 235-51. Rates 1.4% to 11.0%. Social Security and employer pensions 100% exempt.",
+      "code": "HI",
+      "name": "Hawaii",
+      "type": "progressive"
+    },
+    "IA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.038,
+        "single": 0.038,
+        "mfj": 0.038
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "exemptRetirement": true,
+        "minAge": 55,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.iowa.gov/"
+      ],
+      "notes": "Flat 3.80% rate. Social Security benefits and all qualified retirement distributions (pensions, IRAs, 401k) are 100% exempt for taxpayers age 55+ (Iowa Code § 422.7).",
+      "code": "IA",
+      "name": "Iowa",
+      "type": "flat"
+    },
+    "ID": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.053,
+        "single": 0.053,
+        "mfj": 0.053
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "hoh": 21900,
+        "mfj": 29200,
+        "mfs": 14600,
+        "followsFederal": true
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.idaho.gov/"
+      ],
+      "notes": "Flat 5.30% rate for 2026 (Idaho Code § 63-3024, HB 40). Social Security benefits are 100% exempt from Idaho state income tax.",
+      "code": "ID",
+      "name": "Idaho",
+      "type": "flat"
+    },
+    "IL": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0495,
+        "single": 0.0495,
+        "mfj": 0.0495
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 2775,
+        "mfj": 5550
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "exemptRetirement": true,
+        "minAge": 0,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": {
+        "exemption": 4000000,
+        "topRate": 0.16
+      },
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.illinois.gov/"
+      ],
+      "notes": "Flat 4.95% rate (35 ILCS 5/). Fully exempts Social Security benefits and qualified retirement plans (pensions, traditional IRAs, 401k/403b).",
+      "code": "IL",
+      "name": "Illinois",
+      "type": "flat"
+    },
+    "IN": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0295,
+        "single": 0.0295,
+        "mfj": 0.0295
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 1000,
+        "mfj": 2000
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.in.gov/dor/"
+      ],
+      "notes": "Flat 2.95% rate for 2026 (Ind. Code § 6-3-2-1). Social Security is 100% exempt. Counties may levy local income tax.",
+      "code": "IN",
+      "name": "Indiana",
+      "type": "flat"
+    },
+    "KS": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 23000,
+            "rate": 0.052
+          },
+          {
+            "upTo": null,
+            "rate": 0.0558
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 46000,
+            "rate": 0.052
+          },
+          {
+            "upTo": null,
+            "rate": 0.0558
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 3605,
+        "mfj": 8240
+      },
+      "personalExemption": {
+        "single": 9160,
+        "mfj": 18320
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.ksrevenue.gov/taxrates.html"
+      ],
+      "notes": "K.S.A. § 79-32,110 (2024 SB 1). Two brackets: 5.20% up to $23k single / $46k MFJ, 5.58% above. All Social Security benefits are 100% exempt.",
+      "code": "KS",
+      "name": "Kansas",
+      "type": "progressive"
+    },
+    "KY": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.04,
+        "single": 0.04,
+        "mfj": 0.04
+      },
+      "standardDeduction": {
+        "single": 3160,
+        "mfj": 6320
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "maxExclusion": 31110,
+        "minAge": 0,
+        "perPerson": true,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://revenue.ky.gov/"
+      ],
+      "notes": "Flat 4.0% rate (KRS 141.020). Social Security is exempt. Pension and qualified retirement exclusion up to $31,110 per person.",
+      "code": "KY",
+      "name": "Kentucky",
+      "type": "flat"
+    },
+    "LA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.03,
+        "single": 0.03,
+        "mfj": 0.03
+      },
+      "standardDeduction": {
+        "single": 12500,
+        "mfj": 25000
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://revenue.louisiana.gov/IndividualIncomeTax"
+      ],
+      "notes": "La. R.S. § 47:32. Flat 3.00% rate. Social Security exempt. Federal and state public pensions 100% exempt.",
+      "code": "LA",
+      "name": "Louisiana",
+      "type": "flat"
+    },
+    "MA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "rate": 0.05,
+            "upTo": 1000000
+          },
+          {
+            "rate": 0.09,
+            "upTo": null
+          }
+        ],
+        "mfj": [
+          {
+            "rate": 0.05,
+            "upTo": 1000000
+          },
+          {
+            "rate": 0.09,
+            "upTo": null
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 4400,
+        "mfj": 8800
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": {
+        "exemption": 2000000,
+        "topRate": 0.16
+      },
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.mass.gov/orgs/massachusetts-department-of-revenue"
+      ],
+      "notes": "Massachusetts 5.0% base rate plus 4.0% surtax on taxable income exceeding $1,000,000 (Mass. Gen. Laws ch. 62, § 4). Social Security is 100% exempt.",
+      "code": "MA",
+      "name": "Massachusetts",
+      "type": "progressive"
+    },
+    "MD": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 1000,
+            "rate": 0.02
+          },
+          {
+            "upTo": 2000,
+            "rate": 0.03
+          },
+          {
+            "upTo": 3000,
+            "rate": 0.04
+          },
+          {
+            "upTo": 100000,
+            "rate": 0.0475
+          },
+          {
+            "upTo": 125000,
+            "rate": 0.05
+          },
+          {
+            "upTo": 150000,
+            "rate": 0.0525
+          },
+          {
+            "upTo": 250000,
+            "rate": 0.055
+          },
+          {
+            "upTo": null,
+            "rate": 0.0575
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 1000,
+            "rate": 0.02
+          },
+          {
+            "upTo": 2000,
+            "rate": 0.03
+          },
+          {
+            "upTo": 3000,
+            "rate": 0.04
+          },
+          {
+            "upTo": 150000,
+            "rate": 0.0475
+          },
+          {
+            "upTo": 175000,
+            "rate": 0.05
+          },
+          {
+            "upTo": 225000,
+            "rate": 0.0525
+          },
+          {
+            "upTo": 300000,
+            "rate": 0.055
+          },
+          {
+            "upTo": null,
+            "rate": 0.0575
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 2700,
+        "mfj": 5450
+      },
+      "personalExemption": {
+        "single": 3200,
+        "mfj": 6400
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "age65Plus": 40600,
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.marylandtaxes.gov/"
+      ],
+      "notes": "Md. Code Ann., Tax-Gen. § 10-105. State rate 2.0% to 5.75% (counties levy local piggyback 2.25% to 3.20%). Social Security exempt. 2026 pension exclusion up to $40,600 for age 65+ (IRAs do not qualify).",
+      "code": "MD",
+      "name": "Maryland",
+      "type": "progressive"
+    },
+    "ME": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 26050,
+            "rate": 0.058
+          },
+          {
+            "upTo": 61600,
+            "rate": 0.0675
+          },
+          {
+            "upTo": null,
+            "rate": 0.0715
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 52150,
+            "rate": 0.058
+          },
+          {
+            "upTo": 123250,
+            "rate": 0.0675
+          },
+          {
+            "upTo": null,
+            "rate": 0.0715
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 35000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.maine.gov/revenue/taxes/income-estate-tax"
+      ],
+      "notes": "36 M.R.S. § 5111. Progressive rates 5.8% to 7.15%. Social Security exempt. Pension/annuity deduction up to $35,000.",
+      "code": "ME",
+      "name": "Maine",
+      "type": "progressive"
+    },
+    "MI": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0425,
+        "single": 0.0425,
+        "mfj": 0.0425
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 5600,
+        "mfj": 11200
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "maxExclusionSingle": 67610,
+        "maxExclusionMfj": 135220,
+        "minAge": 59.5,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.michigan.gov/taxes"
+      ],
+      "notes": "Flat 4.25% rate (MCL 206.51). Social Security is exempt. PA 4 of 2023 retirement subtraction fully phased in for 2026 ($67,610 single / $135,220 MFJ).",
+      "code": "MI",
+      "name": "Michigan",
+      "type": "flat"
+    },
+    "MN": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 31690,
+            "rate": 0.0535
+          },
+          {
+            "upTo": 104090,
+            "rate": 0.068
+          },
+          {
+            "upTo": 193240,
+            "rate": 0.0785
+          },
+          {
+            "upTo": null,
+            "rate": 0.0985
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 46330,
+            "rate": 0.0535
+          },
+          {
+            "upTo": 184080,
+            "rate": 0.068
+          },
+          {
+            "upTo": 321450,
+            "rate": 0.0785
+          },
+          {
+            "upTo": null,
+            "rate": 0.0985
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14575,
+        "mfj": 29150
+      },
+      "personalExemption": {
+        "single": 5050,
+        "mfj": 10100
+      },
+      "ssTaxation": "follows-federal",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.revenue.state.mn.us/minnesota-income-tax-rates-and-brackets"
+      ],
+      "notes": "Minn. Stat. § 290.06. Progressive brackets 5.35% to 9.85%. Follows federal Social Security taxation with state subtraction.",
+      "code": "MN",
+      "name": "Minnesota",
+      "type": "progressive"
+    },
+    "MO": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 1273,
+            "rate": 0
+          },
+          {
+            "upTo": 2546,
+            "rate": 0.02
+          },
+          {
+            "upTo": 3819,
+            "rate": 0.025
+          },
+          {
+            "upTo": 5092,
+            "rate": 0.03
+          },
+          {
+            "upTo": 6365,
+            "rate": 0.035
+          },
+          {
+            "upTo": 7638,
+            "rate": 0.04
+          },
+          {
+            "upTo": 8911,
+            "rate": 0.045
+          },
+          {
+            "upTo": null,
+            "rate": 0.047
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 2546,
+            "rate": 0
+          },
+          {
+            "upTo": 5092,
+            "rate": 0.02
+          },
+          {
+            "upTo": 7638,
+            "rate": 0.025
+          },
+          {
+            "upTo": 10184,
+            "rate": 0.03
+          },
+          {
+            "upTo": 12730,
+            "rate": 0.035
+          },
+          {
+            "upTo": 15276,
+            "rate": 0.04
+          },
+          {
+            "upTo": 17822,
+            "rate": 0.045
+          },
+          {
+            "upTo": null,
+            "rate": 0.047
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://dor.mo.gov/taxation/individual/tax-types/income/"
+      ],
+      "notes": "Mo. Rev. Stat. § 143.011. Top rate 4.70%. SB 190 fully exempts 100% of Social Security and public pensions.",
+      "code": "MO",
+      "name": "Missouri",
+      "type": "progressive"
+    },
+    "MS": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.04,
+        "single": 0.04,
+        "mfj": 0.04
+      },
+      "standardDeduction": {
+        "single": 2300,
+        "mfj": 4600
+      },
+      "personalExemption": {
+        "single": 6000,
+        "mfj": 12000
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "exemptRetirement": true,
+        "minAge": 0,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.dor.ms.gov/"
+      ],
+      "notes": "Flat 4.0% rate (Miss. Code Ann. § 27-7-5). Social Security and all qualified retirement distributions (pensions, IRAs, 401k) are 100% exempt from Mississippi income tax.",
+      "code": "MS",
+      "name": "Mississippi",
+      "type": "flat"
+    },
+    "MT": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 20500,
+            "rate": 0.047
+          },
+          {
+            "upTo": null,
+            "rate": 0.059
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 41000,
+            "rate": 0.047
+          },
+          {
+            "upTo": null,
+            "rate": 0.059
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 4640,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://mtrevenue.gov/taxes/individual-income-tax/"
+      ],
+      "notes": "Mont. Code Ann. § 15-30-2103 (SB 399). Two rates: 4.7% and 5.9%. Adopts federal standard deduction.",
+      "code": "MT",
+      "name": "Montana",
+      "type": "progressive"
+    },
+    "NC": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0399,
+        "single": 0.0399,
+        "mfj": 0.0399
+      },
+      "standardDeduction": {
+        "single": 12750,
+        "hoh": 19125,
+        "mfj": 25500,
+        "mfs": 12750
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.ncdor.gov/"
+      ],
+      "notes": "Flat 3.99% rate in 2026 (N.C. Gen. Stat. § 105-153.7, Session Law 2023-134). Social Security benefits are exempt. Generous standard deduction.",
+      "code": "NC",
+      "name": "North Carolina",
+      "type": "flat"
+    },
+    "ND": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 44725,
+            "rate": 0
+          },
+          {
+            "upTo": 225975,
+            "rate": 0.0195
+          },
+          {
+            "upTo": null,
+            "rate": 0.025
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 74700,
+            "rate": 0
+          },
+          {
+            "upTo": 275100,
+            "rate": 0.0195
+          },
+          {
+            "upTo": null,
+            "rate": 0.025
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.tax.nd.gov/individual/individual-income-tax"
+      ],
+      "notes": "N.D. Cent. Code § 57-38-30.3 (HB 1158). Top rate 2.50%. Social Security benefits 100% exempt.",
+      "code": "ND",
+      "name": "North Dakota",
+      "type": "progressive"
+    },
+    "NE": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 8250,
+            "rate": 0.0246
+          },
+          {
+            "upTo": 49530,
+            "rate": 0.0351
+          },
+          {
+            "upTo": null,
+            "rate": 0.0455
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 16500,
+            "rate": 0.0246
+          },
+          {
+            "upTo": 99060,
+            "rate": 0.0351
+          },
+          {
+            "upTo": null,
+            "rate": 0.0455
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 8850,
+        "mfj": 17700
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://revenue.nebraska.gov/individuals/individual-income-tax"
+      ],
+      "notes": "Neb. Rev. Stat. § 77-2715 (LB 754). Top rate 4.55% for 2026. $166 personal exemption tax credit ($332 MFJ). LB 873 fully exempts all Social Security benefits.",
+      "code": "NE",
+      "name": "Nebraska",
+      "type": "progressive",
+      "personalExemptionCredit": {
+        "single": 166,
+        "mfj": 332
+      }
+    },
+    "NH": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.revenue.nh.gov/"
+      ],
+      "notes": "No individual earned income tax or tax on retirement distributions. The interest and dividends tax (RSA 77) phased out completely.",
+      "code": "NH",
+      "name": "New Hampshire",
+      "type": "none"
+    },
+    "NJ": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "rate": 0.014,
+            "upTo": 20000
+          },
+          {
+            "rate": 0.0175,
+            "upTo": 35000
+          },
+          {
+            "rate": 0.035,
+            "upTo": 40000
+          },
+          {
+            "rate": 0.05525,
+            "upTo": 75000
+          },
+          {
+            "rate": 0.0637,
+            "upTo": 500000
+          },
+          {
+            "rate": 0.0897,
+            "upTo": 1000000
+          },
+          {
+            "rate": 0.1075,
+            "upTo": null
+          }
+        ],
+        "mfj": [
+          {
+            "rate": 0.014,
+            "upTo": 20000
+          },
+          {
+            "rate": 0.0175,
+            "upTo": 50000
+          },
+          {
+            "rate": 0.0245,
+            "upTo": 70000
+          },
+          {
+            "rate": 0.035,
+            "upTo": 80000
+          },
+          {
+            "rate": 0.05525,
+            "upTo": 150000
+          },
+          {
+            "rate": 0.0637,
+            "upTo": 500000
+          },
+          {
+            "rate": 0.0897,
+            "upTo": 1000000
+          },
+          {
+            "rate": 0.1075,
+            "upTo": null
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 1000,
+        "mfj": 2000
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "maxExclusionSingle": 75000,
+        "maxExclusionMfj": 100000,
+        "minAge": 62,
+        "agiLimit": 100000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": {
+        "applies": true,
+        "notes": "New Jersey imposes inheritance tax on transfers to non-Class A beneficiaries."
+      },
+      "sources": [
+        "https://www.state.nj.us/treasury/taxation/"
+      ],
+      "notes": "New Jersey Gross Income Tax 1.4% to 10.75% (N.J. Stat. Ann. § 54A:2-1). Social Security is 100% exempt. Substantial pension and retirement income exclusion ($100k MFJ / $75k Single) for filers 62+ with total income up to $100k.",
+      "code": "NJ",
+      "name": "New Jersey",
+      "type": "progressive"
+    },
+    "NM": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 5500,
+            "rate": 0.015
+          },
+          {
+            "upTo": 11000,
+            "rate": 0.032
+          },
+          {
+            "upTo": 16000,
+            "rate": 0.043
+          },
+          {
+            "upTo": 210000,
+            "rate": 0.047
+          },
+          {
+            "upTo": 315000,
+            "rate": 0.056
+          },
+          {
+            "upTo": null,
+            "rate": 0.059
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 8000,
+            "rate": 0.015
+          },
+          {
+            "upTo": 16000,
+            "rate": 0.032
+          },
+          {
+            "upTo": 24000,
+            "rate": 0.043
+          },
+          {
+            "upTo": 315000,
+            "rate": 0.047
+          },
+          {
+            "upTo": 470000,
+            "rate": 0.056
+          },
+          {
+            "upTo": null,
+            "rate": 0.059
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": {
+        "exemptBelowAgi": {
+          "single": 100000,
+          "mfj": 150000
+        }
+      },
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 8000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.tax.newmexico.gov/individuals/file-your-taxes-overview/"
+      ],
+      "notes": "N.M. Stat. Ann. § 7-2-7 (HB 252). Rates 1.5% to 5.9%. Social Security exempt for AGI < $100k single / $150k MFJ.",
+      "code": "NM",
+      "name": "New Mexico",
+      "type": "progressive"
+    },
+    "NV": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.nv.gov/"
+      ],
+      "notes": "No state individual income tax (Nev. Const. art. 10, § 1).",
+      "code": "NV",
+      "name": "Nevada",
+      "type": "none"
+    },
+    "NY": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "rate": 0.04,
+            "upTo": 8500
+          },
+          {
+            "rate": 0.045,
+            "upTo": 11700
+          },
+          {
+            "rate": 0.0525,
+            "upTo": 13900
+          },
+          {
+            "rate": 0.055,
+            "upTo": 80650
+          },
+          {
+            "rate": 0.06,
+            "upTo": 215400
+          },
+          {
+            "rate": 0.0685,
+            "upTo": 1077550
+          },
+          {
+            "rate": 0.0965,
+            "upTo": 5000000
+          },
+          {
+            "rate": 0.109,
+            "upTo": null
+          }
+        ],
+        "mfj": [
+          {
+            "rate": 0.04,
+            "upTo": 17150
+          },
+          {
+            "rate": 0.045,
+            "upTo": 23600
+          },
+          {
+            "rate": 0.0525,
+            "upTo": 27900
+          },
+          {
+            "rate": 0.055,
+            "upTo": 161550
+          },
+          {
+            "rate": 0.06,
+            "upTo": 323200
+          },
+          {
+            "rate": 0.0685,
+            "upTo": 2155350
+          },
+          {
+            "rate": 0.0965,
+            "upTo": 5000000
+          },
+          {
+            "rate": 0.109,
+            "upTo": null
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 8000,
+        "hoh": 11200,
+        "mfj": 16050,
+        "mfs": 8000
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "maxExclusion": 20000,
+        "minAge": 59.5,
+        "perPerson": true,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": {
+        "exemption": 7160000,
+        "topRate": 0.16
+      },
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.tax.ny.gov/"
+      ],
+      "notes": "New York progressive rates 4.0% to 10.9% (N.Y. Tax Law § 601). Social Security is 100% exempt. Pension and annuity exclusion up to $20,000 per person age 59.5+.",
+      "code": "NY",
+      "name": "New York",
+      "type": "progressive"
+    },
+    "OH": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "rate": 0,
+            "upTo": 26050
+          },
+          {
+            "rate": 0.0275,
+            "upTo": null
+          }
+        ],
+        "mfj": [
+          {
+            "rate": 0,
+            "upTo": 26050
+          },
+          {
+            "rate": 0.0275,
+            "upTo": null
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 2400,
+        "hoh": 2400,
+        "mfj": 4800,
+        "mfs": 2400
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.ohio.gov/"
+      ],
+      "notes": "Ohio 2026 consolidated flat bracket (Ohio Rev. Code § 5747.02, HB 96): 0% on first $26,050 and flat 2.75% above $26,050 (3.125% top tier eliminated in 2026). Social Security is 100% exempt.",
+      "code": "OH",
+      "name": "Ohio",
+      "type": "progressive"
+    },
+    "OK": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 1000,
+            "rate": 0.0025
+          },
+          {
+            "upTo": 2500,
+            "rate": 0.0075
+          },
+          {
+            "upTo": 3750,
+            "rate": 0.0175
+          },
+          {
+            "upTo": 4900,
+            "rate": 0.0275
+          },
+          {
+            "upTo": 7200,
+            "rate": 0.0375
+          },
+          {
+            "upTo": null,
+            "rate": 0.0475
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 2000,
+            "rate": 0.0025
+          },
+          {
+            "upTo": 5000,
+            "rate": 0.0075
+          },
+          {
+            "upTo": 7500,
+            "rate": 0.0175
+          },
+          {
+            "upTo": 9800,
+            "rate": 0.0275
+          },
+          {
+            "upTo": 12200,
+            "rate": 0.0375
+          },
+          {
+            "upTo": null,
+            "rate": 0.0475
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 6350,
+        "mfj": 12700
+      },
+      "personalExemption": {
+        "single": 1000,
+        "mfj": 2000
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 10000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://oklahoma.gov/tax/individuals/income-tax.html"
+      ],
+      "notes": "68 O.S. § 2355. Top rate 4.75%. 100% Social Security exemption. $10,000 retirement income exclusion.",
+      "code": "OK",
+      "name": "Oklahoma",
+      "type": "progressive"
+    },
+    "OR": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 4300,
+            "rate": 0.0475
+          },
+          {
+            "upTo": 10750,
+            "rate": 0.0675
+          },
+          {
+            "upTo": 125000,
+            "rate": 0.0875
+          },
+          {
+            "upTo": null,
+            "rate": 0.099
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 8600,
+            "rate": 0.0475
+          },
+          {
+            "upTo": 21500,
+            "rate": 0.0675
+          },
+          {
+            "upTo": 250000,
+            "rate": 0.0875
+          },
+          {
+            "upTo": null,
+            "rate": 0.099
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 2745,
+        "mfj": 5495
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.oregon.gov/dor/programs/individuals/pages/personal-income-tax.aspx"
+      ],
+      "notes": "Or. Rev. Stat. § 316.037. Rates 4.75% to 9.90%. $236 personal exemption tax credit ($472 MFJ). Social Security benefits are 100% exempt.",
+      "code": "OR",
+      "name": "Oregon",
+      "type": "progressive",
+      "personalExemptionCredit": {
+        "single": 236,
+        "mfj": 472
+      }
+    },
+    "PA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0307,
+        "single": 0.0307,
+        "mfj": 0.0307
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "exemptRetirement": true,
+        "minAge": 59.5,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": {
+        "applies": true,
+        "linealRate": 0.045,
+        "notes": "Pennsylvania imposes an inheritance tax on transfers to direct descendants (4.5%)."
+      },
+      "sources": [
+        "https://www.revenue.pa.gov/"
+      ],
+      "notes": "Flat 3.07% rate. Under 72 P.S. § 7301, Pennsylvania completely exempts Social Security benefits, public & private pensions, and 401(k)/traditional IRA distributions once retirement age (59.5) is reached.",
+      "code": "PA",
+      "name": "Pennsylvania",
+      "type": "flat"
+    },
+    "RI": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 77450,
+            "rate": 0.0375
+          },
+          {
+            "upTo": 176050,
+            "rate": 0.0475
+          },
+          {
+            "upTo": null,
+            "rate": 0.0599
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 77450,
+            "rate": 0.0375
+          },
+          {
+            "upTo": 176050,
+            "rate": 0.0475
+          },
+          {
+            "upTo": null,
+            "rate": 0.0599
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 10550,
+        "mfj": 21100
+      },
+      "personalExemption": {
+        "single": 4850,
+        "mfj": 9700
+      },
+      "ssTaxation": {
+        "exemptBelowAgi": {
+          "single": 107000,
+          "mfj": 133750
+        }
+      },
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 20000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.ri.gov/tax-sections/personal-and-corporate-tax"
+      ],
+      "notes": "R.I. Gen. Laws § 44-30-2.6. Rates 3.75% to 5.99%. Social Security exempt for AGI < $107k single / $133,750 MFJ.",
+      "code": "RI",
+      "name": "Rhode Island",
+      "type": "progressive"
+    },
+    "SC": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 3460,
+            "rate": 0
+          },
+          {
+            "upTo": 17330,
+            "rate": 0.03
+          },
+          {
+            "upTo": null,
+            "rate": 0.062
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 6920,
+            "rate": 0
+          },
+          {
+            "upTo": 34660,
+            "rate": 0.03
+          },
+          {
+            "upTo": null,
+            "rate": 0.062
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 14600,
+        "mfj": 29200
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "age65Plus": 15000,
+        "under65": 3000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://dor.sc.gov/tax/individual-income"
+      ],
+      "notes": "S.C. Code Ann. § 12-6-510. Top rate 6.20%. Social Security 100% exempt. Senior retirement deduction up to $15,000.",
+      "code": "SC",
+      "name": "South Carolina",
+      "type": "progressive"
+    },
+    "SD": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://dor.sd.gov/"
+      ],
+      "notes": "No individual income tax (S.D. Const. art. XI, § 2).",
+      "code": "SD",
+      "name": "South Dakota",
+      "type": "none"
+    },
+    "TN": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.tn.gov/revenue.html"
+      ],
+      "notes": "No individual income tax (Hall income tax fully repealed Jan 1, 2021).",
+      "code": "TN",
+      "name": "Tennessee",
+      "type": "none"
+    },
+    "TX": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://comptroller.texas.gov/"
+      ],
+      "notes": "No state individual income tax (Tex. Const. art. VIII, § 24-a).",
+      "code": "TX",
+      "name": "Texas",
+      "type": "none"
+    },
+    "UT": {
+      "asOfYear": 2026,
+      "brackets": {
+        "rate": 0.0445,
+        "single": 0.0445,
+        "mfj": 0.0445
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "follows-federal",
+      "ssCredit": {
+        "rate": 0.0445,
+        "phaseOutStart": {
+          "single": 54000,
+          "mfj": 90000,
+          "hoh": 90000,
+          "mfs": 45000
+        },
+        "phaseOutRate": 0.025
+      },
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.utah.gov/"
+      ],
+      "notes": "Flat 4.45% rate (Utah Code § 59-10-104, SB 71). Social Security follows federal taxable amount with nonrefundable credit (4.45% of taxable SS) phased out at 2.5% per dollar of MAGI above $54k single / $90k MFJ & HoH / $45k MFS.",
+      "code": "UT",
+      "name": "Utah",
+      "type": "flat"
+    },
+    "VA": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "rate": 0.02,
+            "upTo": 3000
+          },
+          {
+            "rate": 0.03,
+            "upTo": 5000
+          },
+          {
+            "rate": 0.05,
+            "upTo": 17000
+          },
+          {
+            "rate": 0.0575,
+            "upTo": null
+          }
+        ],
+        "mfj": [
+          {
+            "rate": 0.02,
+            "upTo": 3000
+          },
+          {
+            "rate": 0.03,
+            "upTo": 5000
+          },
+          {
+            "rate": 0.05,
+            "upTo": 17000
+          },
+          {
+            "rate": 0.0575,
+            "upTo": null
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 8500,
+        "mfj": 17000,
+        "seniorAddition": {
+          "single": 12000,
+          "mfj": 24000
+        }
+      },
+      "personalExemption": {
+        "single": 930,
+        "mfj": 1860
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.tax.virginia.gov/"
+      ],
+      "notes": "Virginia progressive rates 2.0% to 5.75% (Va. Code § 58.1-320). Social Security benefits are 100% exempt. Generous senior age-65 deduction up to $12,000 per spouse.",
+      "code": "VA",
+      "name": "Virginia",
+      "type": "progressive"
+    },
+    "VT": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 45400,
+            "rate": 0.0335
+          },
+          {
+            "upTo": 110050,
+            "rate": 0.066
+          },
+          {
+            "upTo": 229550,
+            "rate": 0.076
+          },
+          {
+            "upTo": null,
+            "rate": 0.0875
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 75850,
+            "rate": 0.0335
+          },
+          {
+            "upTo": 183250,
+            "rate": 0.066
+          },
+          {
+            "upTo": 279300,
+            "rate": 0.076
+          },
+          {
+            "upTo": null,
+            "rate": 0.0875
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 7250,
+        "mfj": 14500
+      },
+      "personalExemption": {
+        "single": 5100,
+        "mfj": 10200
+      },
+      "ssTaxation": "follows-federal",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 10000,
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.vermont.gov/individuals"
+      ],
+      "notes": "32 V.S.A. § 5811. Progressive rates 3.35% to 8.75%. Social Security taxable subject to state exemption thresholds.",
+      "code": "VT",
+      "name": "Vermont",
+      "type": "progressive"
+    },
+    "WA": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": {
+        "threshold": 290000,
+        "tiers": [
+          {
+            "upTo": 1000000,
+            "rate": 0.07
+          },
+          {
+            "upTo": null,
+            "rate": 0.099
+          }
+        ]
+      },
+      "estateTax": {
+        "exemption": 2193000,
+        "topRate": 0.2
+      },
+      "inheritanceTax": null,
+      "sources": [
+        "https://dor.wa.gov/taxes-rates/other-taxes/capital-gains-tax"
+      ],
+      "notes": "No personal income tax on ordinary income or retirement distributions. 7% excise tax on net LTCG over $290,000 up to $1M taxable gain, plus 9.9% above $1M taxable gain (RCW 82.87, ESSB 5813).",
+      "code": "WA",
+      "name": "Washington",
+      "type": "none"
+    },
+    "WI": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 14320,
+            "rate": 0.035
+          },
+          {
+            "upTo": 28640,
+            "rate": 0.044
+          },
+          {
+            "upTo": 315310,
+            "rate": 0.053
+          },
+          {
+            "upTo": null,
+            "rate": 0.0765
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 19090,
+            "rate": 0.035
+          },
+          {
+            "upTo": 38190,
+            "rate": 0.044
+          },
+          {
+            "upTo": 420420,
+            "rate": 0.053
+          },
+          {
+            "upTo": null,
+            "rate": 0.0765
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 13810,
+        "mfj": 25520
+      },
+      "personalExemption": {
+        "single": 700,
+        "mfj": 1400
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 5000,
+        "age65Plus": 5000,
+        "qualifiesPension": true,
+        "qualifiesIra": true
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://www.revenue.wi.gov/Pages/FAQS/pcs-taxrates.aspx"
+      ],
+      "notes": "Wis. Stat. § 71.06. Rates 3.50% to 7.65%. Social Security 100% exempt. $5,000 retirement exclusion for age 65+.",
+      "code": "WI",
+      "name": "Wisconsin",
+      "type": "progressive"
+    },
+    "WV": {
+      "asOfYear": 2026,
+      "brackets": {
+        "single": [
+          {
+            "upTo": 10000,
+            "rate": 0.022
+          },
+          {
+            "upTo": 25000,
+            "rate": 0.03
+          },
+          {
+            "upTo": 40000,
+            "rate": 0.036
+          },
+          {
+            "upTo": 60000,
+            "rate": 0.048
+          },
+          {
+            "upTo": null,
+            "rate": 0.0512
+          }
+        ],
+        "mfj": [
+          {
+            "upTo": 20000,
+            "rate": 0.022
+          },
+          {
+            "upTo": 50000,
+            "rate": 0.03
+          },
+          {
+            "upTo": 80000,
+            "rate": 0.036
+          },
+          {
+            "upTo": 120000,
+            "rate": 0.048
+          },
+          {
+            "upTo": null,
+            "rate": 0.0512
+          }
+        ]
+      },
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 2000,
+        "mfj": 4000
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": {
+        "amount": 8000,
+        "age65Plus": 8000,
+        "qualifiesPension": true,
+        "qualifiesIra": false
+      },
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "https://tax.wv.gov/Individuals/Pages/Individuals.aspx"
+      ],
+      "notes": "W. Va. Code § 11-21-4e (HB 2526). Rates 2.2% to 5.12%. Social Security 100% exempt by 2026. $8,000 retirement exclusion.",
+      "code": "WV",
+      "name": "West Virginia",
+      "type": "progressive"
+    },
+    "WY": {
+      "asOfYear": 2026,
+      "brackets": {},
+      "standardDeduction": {
+        "single": 0,
+        "mfj": 0
+      },
+      "personalExemption": {
+        "single": 0,
+        "mfj": 0
+      },
+      "ssTaxation": "exempt",
+      "ssCredit": null,
+      "retirementIncomeExclusion": null,
+      "capGains": "ordinary",
+      "estateTax": null,
+      "inheritanceTax": null,
+      "sources": [
+        "http://revenue.wyo.gov/"
+      ],
+      "notes": "No individual income tax (Wyo. Const. art. 15, § 18).",
+      "code": "WY",
+      "name": "Wyoming",
+      "type": "none"
+    }
+  }
+}

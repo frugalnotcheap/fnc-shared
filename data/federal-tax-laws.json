@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "dataset": "federal-tax-laws",
+  "lawsByYear": {
+    "2026": {
+      "year": 2026,
+      "fplBase": 15650,
+      "fplExtra": 5500,
+      "aca": {
+        "enhanced": false,
+        "medicaidExpansion": false,
+        "cliffRatio": 4,
+        "maxRepaymentRate": 0.085,
+        "rothFillCliffBuffer": 0.995,
+        "bands": [
+          [
+            1,
+            1.33,
+            0.021,
+            0.021
+          ],
+          [
+            1.33,
+            1.5,
+            0.0315,
+            0.042
+          ],
+          [
+            1.5,
+            2,
+            0.042,
+            0.0661
+          ],
+          [
+            2,
+            2.5,
+            0.0661,
+            0.084
+          ],
+          [
+            2.5,
+            3,
+            0.084,
+            0.0996
+          ],
+          [
+            3,
+            4,
+            0.0996,
+            0.0996
+          ]
+        ]
+      },
+      "contribLimits": {
+        "k401": 24500,
+        "ira": 7500
+      },
+      "catchUpLimits": {
+        "k401": 8000,
+        "k401Super": 11250,
+        "ira": 1100
+      },
+      "qlacLimit": 210000,
+      "qcdLimit": 111000,
+      "qcdStartAge": 71,
+      "federalEstate": {
+        "exemptionPerPerson": 15000000,
+        "rate": 0.4
+      },
+      "ssEarningsLimit": 24480,
+      "ficaOasdiLimit": 184500,
+      "additionalMedicare": {
+        "single": 200000,
+        "mfj": 250000,
+        "hoh": 200000,
+        "mfs": 125000,
+        "rate": 0.009
+      },
+      "sec199APhaseout": {
+        "single": 201750,
+        "mfj": 403500,
+        "rangeSingle": 75000,
+        "rangeMfj": 150000
+      },
+      "sec469": {
+        "maxAllowance": 25000,
+        "phaseOutStart": 100000,
+        "phaseOutEnd": 150000,
+        "phaseOutRate": 0.5
+      },
+      "sec1250CapRate": 0.25,
+      "hsaLimits": {
+        "asOfYear": 2026,
+        "single": 4400,
+        "mfj": 8750,
+        "catchUp55": 1000
+      },
+      "medicareDefaults": {
+        "asOfYear": 2026,
+        "partBMonthly": 202.9,
+        "partDMonthly": 38.99,
+        "supplementMonthly": 150
+      },
+      "standardDeductions": {
+        "mfj": 32200,
+        "hoh": 24150,
+        "single": 16100,
+        "mfs": 16100
+      },
+      "seniorStandardAdditions": {
+        "mfj": 1650,
+        "hoh": 2050,
+        "single": 2050,
+        "mfs": 1650
+      },
+      "seniorBonus": {
+        "amount": 6000,
+        "firstYear": 2025,
+        "lastYear": 2028,
+        "phaseOutRate": 0.06,
+        "phaseOutStart": {
+          "mfj": 150000,
+          "single": 75000,
+          "hoh": 75000
+        }
+      },
+      "brackets": {
+        "mfj": [
+          {
+            "limit": 24800,
+            "rate": 0.1
+          },
+          {
+            "limit": 100800,
+            "rate": 0.12
+          },
+          {
+            "limit": 211400,
+            "rate": 0.22
+          },
+          {
+            "limit": 403550,
+            "rate": 0.24
+          },
+          {
+            "limit": 512450,
+            "rate": 0.32
+          },
+          {
+            "limit": 768700,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ],
+        "single": [
+          {
+            "limit": 12400,
+            "rate": 0.1
+          },
+          {
+            "limit": 50400,
+            "rate": 0.12
+          },
+          {
+            "limit": 105700,
+            "rate": 0.22
+          },
+          {
+            "limit": 201775,
+            "rate": 0.24
+          },
+          {
+            "limit": 256225,
+            "rate": 0.32
+          },
+          {
+            "limit": 640600,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ],
+        "hoh": [
+          {
+            "limit": 17700,
+            "rate": 0.1
+          },
+          {
+            "limit": 67450,
+            "rate": 0.12
+          },
+          {
+            "limit": 105700,
+            "rate": 0.22
+          },
+          {
+            "limit": 201750,
+            "rate": 0.24
+          },
+          {
+            "limit": 256200,
+            "rate": 0.32
+          },
+          {
+            "limit": 640600,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ],
+        "mfs": [
+          {
+            "limit": 12400,
+            "rate": 0.1
+          },
+          {
+            "limit": 50400,
+            "rate": 0.12
+          },
+          {
+            "limit": 105700,
+            "rate": 0.22
+          },
+          {
+            "limit": 201775,
+            "rate": 0.24
+          },
+          {
+            "limit": 256225,
+            "rate": 0.32
+          },
+          {
+            "limit": 384350,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ]
+      },
+      "ltcg": {
+        "mfj": [
+          98900,
+          613700
+        ],
+        "single": [
+          49450,
+          545500
+        ],
+        "hoh": [
+          66200,
+          579600
+        ],
+        "mfs": [
+          49450,
+          306850
+        ]
+      },
+      "ltcgRates": [
+        0,
+        0.15,
+        0.2
+      ],
+      "irmaaThresholds": {
+        "mfj": [
+          218000,
+          274000,
+          342000,
+          410000,
+          750000
+        ],
+        "single": [
+          109000,
+          137000,
+          171000,
+          205000,
+          500000
+        ]
+      },
+      "irmaaSurcharges": [
+        0,
+        1150,
+        2890,
+        4620,
+        6360,
+        6940
+      ],
+      "ssTaxThresholds": {
+        "single": [
+          25000,
+          34000
+        ],
+        "mfj": [
+          32000,
+          44000
+        ],
+        "mfs": [
+          0,
+          0
+        ]
+      },
+      "niit": {
+        "single": 200000,
+        "mfj": 250000,
+        "mfs": 125000,
+        "hoh": 200000,
+        "rate": 0.038
+      },
+      "sec121Exclusion": {
+        "single": 250000,
+        "mfj": 500000,
+        "hoh": 250000,
+        "mfs": 250000
+      },
+      "realtorSellingCostRate": 0.06,
+      "earlyWithdrawal": {
+        "age": 59.5,
+        "penaltyRate": 0.1
+      },
+      "hsaNonMedical": {
+        "exemptAge": 65,
+        "penaltyRate": 0.2
+      },
+      "rmdPost100": {
+        "baseAge": 100,
+        "baseDivisor": 6.4,
+        "annualStep": 0.3,
+        "minDivisor": 2
+      },
+      "rmdTable": {
+        "70": 29.1,
+        "71": 28.2,
+        "72": 27.4,
+        "73": 26.5,
+        "74": 25.5,
+        "75": 24.6,
+        "76": 23.7,
+        "77": 22.9,
+        "78": 22,
+        "79": 21.1,
+        "80": 20.2,
+        "81": 19.4,
+        "82": 18.5,
+        "83": 17.7,
+        "84": 16.8,
+        "85": 16,
+        "86": 15.2,
+        "87": 14.4,
+        "88": 13.7,
+        "89": 12.9,
+        "90": 12.2,
+        "91": 11.5,
+        "92": 10.8,
+        "93": 10.1,
+        "94": 9.5,
+        "95": 8.9,
+        "96": 8.4,
+        "97": 7.8,
+        "98": 7.3,
+        "99": 6.8,
+        "100": 6.4
+      },
+      "indexing": {
+        "brackets": "cpi",
+        "standardDeductions": "cpi",
+        "seniorStandardAdditions": "cpi",
+        "ltcg": "cpi",
+        "irmaaThresholds": "cpi",
+        "contribLimits": "cpi",
+        "catchUpLimits": "cpi",
+        "fpl": "cpi",
+        "ssTaxThresholds": "none",
+        "niit": "none",
+        "seniorBonus": "none",
+        "sec121Exclusion": "none"
+      }
+    },
+    "2027": {
+      "year": 2027,
+      "fplBase": 15960,
+      "fplExtra": 5680,
+      "aca": {
+        "enhanced": false,
+        "medicaidExpansion": false,
+        "cliffRatio": 4,
+        "maxRepaymentRate": 0.085,
+        "rothFillCliffBuffer": 0.995,
+        "bands": [
+          [
+            1,
+            1.33,
+            0.021,
+            0.021
+          ],
+          [
+            1.33,
+            1.5,
+            0.0315,
+            0.042
+          ],
+          [
+            1.5,
+            2,
+            0.042,
+            0.0661
+          ],
+          [
+            2,
+            2.5,
+            0.0661,
+            0.084
+          ],
+          [
+            2.5,
+            3,
+            0.084,
+            0.0996
+          ],
+          [
+            3,
+            4,
+            0.0996,
+            0.0996
+          ]
+        ]
+      },
+      "contribLimits": {
+        "k401": 25500,
+        "ira": 7500
+      },
+      "catchUpLimits": {
+        "k401": 8500,
+        "k401Super": 11750,
+        "ira": 1100
+      },
+      "qlacLimit": 210000,
+      "qcdLimit": 115000,
+      "qcdStartAge": 71,
+      "federalEstate": {
+        "exemptionPerPerson": 15000000,
+        "rate": 0.4
+      },
+      "ssEarningsLimit": 24480,
+      "ficaOasdiLimit": 192300,
+      "additionalMedicare": {
+        "single": 200000,
+        "mfj": 250000,
+        "hoh": 200000,
+        "mfs": 125000,
+        "rate": 0.009
+      },
+      "sec199APhaseout": {
+        "single": 208300,
+        "mfj": 416600,
+        "rangeSingle": 75000,
+        "rangeMfj": 150000
+      },
+      "sec469": {
+        "maxAllowance": 25000,
+        "phaseOutStart": 100000,
+        "phaseOutEnd": 150000,
+        "phaseOutRate": 0.5
+      },
+      "sec1250CapRate": 0.25,
+      "hsaLimits": {
+        "asOfYear": 2027,
+        "single": 4500,
+        "mfj": 9000,
+        "catchUp55": 1000
+      },
+      "medicareDefaults": {
+        "asOfYear": 2027,
+        "partBMonthly": 209.5,
+        "partDMonthly": 38.99,
+        "supplementMonthly": 150
+      },
+      "standardDeductions": {
+        "mfj": 33200,
+        "hoh": 24925,
+        "single": 16600,
+        "mfs": 16600
+      },
+      "seniorStandardAdditions": {
+        "mfj": 1700,
+        "hoh": 2100,
+        "single": 2100,
+        "mfs": 1700
+      },
+      "seniorBonus": {
+        "amount": 6000,
+        "firstYear": 2025,
+        "lastYear": 2028,
+        "phaseOutRate": 0.06,
+        "phaseOutStart": {
+          "mfj": 150000,
+          "single": 75000,
+          "hoh": 75000
+        }
+      },
+      "brackets": {
+        "mfj": [
+          {
+            "limit": 25600,
+            "rate": 0.1
+          },
+          {
+            "limit": 104050,
+            "rate": 0.12
+          },
+          {
+            "limit": 218250,
+            "rate": 0.22
+          },
+          {
+            "limit": 416650,
+            "rate": 0.24
+          },
+          {
+            "limit": 529100,
+            "rate": 0.32
+          },
+          {
+            "limit": 793650,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ],
+        "single": [
+          {
+            "limit": 12800,
+            "rate": 0.1
+          },
+          {
+            "limit": 52025,
+            "rate": 0.12
+          },
+          {
+            "limit": 109125,
+            "rate": 0.22
+          },
+          {
+            "limit": 208325,
+            "rate": 0.24
+          },
+          {
+            "limit": 264550,
+            "rate": 0.32
+          },
+          {
+            "limit": 661375,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ],
+        "hoh": [
+          {
+            "limit": 18250,
+            "rate": 0.1
+          },
+          {
+            "limit": 69650,
+            "rate": 0.12
+          },
+          {
+            "limit": 109100,
+            "rate": 0.22
+          },
+          {
+            "limit": 208300,
+            "rate": 0.24
+          },
+          {
+            "limit": 264550,
+            "rate": 0.32
+          },
+          {
+            "limit": 661350,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ],
+        "mfs": [
+          {
+            "limit": 12800,
+            "rate": 0.1
+          },
+          {
+            "limit": 52025,
+            "rate": 0.12
+          },
+          {
+            "limit": 109125,
+            "rate": 0.22
+          },
+          {
+            "limit": 208325,
+            "rate": 0.24
+          },
+          {
+            "limit": 264550,
+            "rate": 0.32
+          },
+          {
+            "limit": 396825,
+            "rate": 0.35
+          },
+          {
+            "limit": 1000000000000000,
+            "rate": 0.37
+          }
+        ]
+      },
+      "ltcg": {
+        "mfj": [
+          102100,
+          633600
+        ],
+        "single": [
+          51050,
+          563200
+        ],
+        "hoh": [
+          68300,
+          597500
+        ],
+        "mfs": [
+          51050,
+          316800
+        ]
+      },
+      "ltcgRates": [
+        0,
+        0.15,
+        0.2
+      ],
+      "irmaaThresholds": {
+        "mfj": [
+          218000,
+          274000,
+          342000,
+          410000,
+          750000
+        ],
+        "single": [
+          109000,
+          137000,
+          171000,
+          205000,
+          500000
+        ]
+      },
+      "irmaaSurcharges": [
+        0,
+        1150,
+        2890,
+        4620,
+        6360,
+        6940
+      ],
+      "ssTaxThresholds": {
+        "single": [
+          25000,
+          34000
+        ],
+        "mfj": [
+          32000,
+          44000
+        ],
+        "mfs": [
+          0,
+          0
+        ]
+      },
+      "niit": {
+        "single": 200000,
+        "mfj": 250000,
+        "mfs": 125000,
+        "hoh": 200000,
+        "rate": 0.038
+      },
+      "sec121Exclusion": {
+        "single": 250000,
+        "mfj": 500000,
+        "hoh": 250000,
+        "mfs": 250000
+      },
+      "realtorSellingCostRate": 0.06,
+      "earlyWithdrawal": {
+        "age": 59.5,
+        "penaltyRate": 0.1
+      },
+      "hsaNonMedical": {
+        "exemptAge": 65,
+        "penaltyRate": 0.2
+      },
+      "rmdPost100": {
+        "baseAge": 100,
+        "baseDivisor": 6.4,
+        "annualStep": 0.3,
+        "minDivisor": 2
+      },
+      "rmdTable": {
+        "70": 29.1,
+        "71": 28.2,
+        "72": 27.4,
+        "73": 26.5,
+        "74": 25.5,
+        "75": 24.6,
+        "76": 23.7,
+        "77": 22.9,
+        "78": 22,
+        "79": 21.1,
+        "80": 20.2,
+        "81": 19.4,
+        "82": 18.5,
+        "83": 17.7,
+        "84": 16.8,
+        "85": 16,
+        "86": 15.2,
+        "87": 14.4,
+        "88": 13.7,
+        "89": 12.9,
+        "90": 12.2,
+        "91": 11.5,
+        "92": 10.8,
+        "93": 10.1,
+        "94": 9.5,
+        "95": 8.9,
+        "96": 8.4,
+        "97": 7.8,
+        "98": 7.3,
+        "99": 6.8,
+        "100": 6.4
+      },
+      "indexing": {
+        "brackets": "cpi",
+        "standardDeductions": "cpi",
+        "seniorStandardAdditions": "cpi",
+        "ltcg": "cpi",
+        "irmaaThresholds": "cpi",
+        "contribLimits": "cpi",
+        "catchUpLimits": "cpi",
+        "fpl": "cpi",
+        "ssTaxThresholds": "none",
+        "niit": "none",
+        "seniorBonus": "none",
+        "sec121Exclusion": "none"
+      }
+    }
+  }
+}

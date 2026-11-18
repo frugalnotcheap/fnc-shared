@@ -1,0 +1,3215 @@
+{
+  "schemaVersion": 1,
+  "lastVerified": "Nov 2026",
+  "cards": [
+    {
+      "id": "chase-sapphire-preferred",
+      "name": "Chase Sapphire Preferred",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.25,
+      "pooledCpp": 1.85,
+      "isTransferEnabler": true,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 900,
+      "welcomeBonusText": "60,000+ Ultimate Rewards pts after $4k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 2
+        },
+        "gas": {
+          "rate": 3
+        },
+        "streaming": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 100,
+        "creditBreakdown": {
+          "portalHotel": 100
+        },
+        "recurringBenefits": [
+          {
+            "id": "csp-hotel",
+            "label": "Chase Travel Hotel Credit",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 100,
+            "annualValue": 100,
+            "categoryTag": "hotel",
+            "notes": "Annual hotel stay booked through Chase Travel"
+          }
+        ],
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F2B5B 0%, #1D4ED8 65%, #1E3A8A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x dining, gas & EV charging, online groceries & select streaming",
+        "5x Chase Travel, 3x vacation rentals, 2x general travel · 0% FTF",
+        "$100 annual Chase Travel hotel credit & Primary rental CDW"
+      ]
+    },
+    {
+      "id": "chase-sapphire-reserve",
+      "name": "Chase Sapphire Reserve",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.5,
+      "pooledCpp": 1.85,
+      "isTransferEnabler": true,
+      "annualFee": 795,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1100,
+      "welcomeBonusText": "Elevated Ultimate Rewards welcome offer after spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 4
+        }
+      },
+      "perks": {
+        "loungeTier": "full",
+        "statementCreditsAnnual": 1140,
+        "statementCreditsList": [
+          "$300 Automatic Travel Credit",
+          "$500 The Edit Hotel Credit ($250 semi-annually)",
+          "$300 Exclusive Tables Dining Credit",
+          "$300 StubHub Credit",
+          "$120 Lyft + $120 Peloton + Apple TV+/Music"
+        ],
+        "hotelCreditAnnual": 500,
+        "creditBreakdown": {
+          "broadTravel": 300,
+          "portalHotel": 500,
+          "diningRideshare": 420,
+          "streamingLifestyle": 420
+        },
+        "recurringBenefits": [
+          {
+            "id": "csr-travel",
+            "label": "Automatic Travel Credit",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 300,
+            "annualValue": 300,
+            "categoryTag": "travel",
+            "notes": "Automatically offsets flights, hotels, transit, parking & tolls"
+          },
+          {
+            "id": "csr-the-edit",
+            "label": "The Edit Hotel Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 250,
+            "annualValue": 500,
+            "categoryTag": "hotel",
+            "notes": "$250 Jan–Jun & $250 Jul–Dec on prepaid The Edit stays (2+ nights)"
+          },
+          {
+            "id": "csr-dining",
+            "label": "Exclusive Tables Dining Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 150,
+            "annualValue": 300,
+            "categoryTag": "dining",
+            "notes": "$150 Jan–Jun & $150 Jul–Dec at Exclusive Tables restaurants"
+          },
+          {
+            "id": "csr-stubhub",
+            "label": "StubHub / viagogo Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 150,
+            "annualValue": 300,
+            "categoryTag": "shopping",
+            "notes": "$150 Jan–Jun & $150 Jul–Dec on concert/sports tickets"
+          },
+          {
+            "id": "csr-lyft",
+            "label": "Lyft In-App Ride Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 10,
+            "annualValue": 120,
+            "categoryTag": "rideshare",
+            "notes": "$10/mo in-app Lyft credit (does not roll over)"
+          },
+          {
+            "id": "csr-peloton",
+            "label": "Peloton Membership Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 10,
+            "annualValue": 120,
+            "categoryTag": "streaming",
+            "notes": "$10/mo toward eligible Peloton membership"
+          },
+          {
+            "id": "csr-global-entry",
+            "label": "Global Entry / TSA PreCheck / NEXUS",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 120,
+            "annualValue": 30,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $120 statement credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #1E3A5F 55%, #0B192C 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "4x direct flights & hotels (8x Chase Travel) + 3x dining worldwide",
+        "$300 auto travel + $500 The Edit hotel + OpenTable, StubHub & Lyft credits",
+        "Chase Sapphire Lounge & Priority Pass access · 0% FTF"
+      ]
+    },
+    {
+      "id": "chase-freedom-unlimited",
+      "name": "Chase Freedom Unlimited",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.85,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 / 20,000 pts after $500 spend",
+      "baseRate": 1.5,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "online_shopping": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #334155 60%, #475569 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "1.5x catch-all on all unbonused spending",
+        "Pools 1:1 into Sapphire points when paired",
+        "$0 annual fee (3% foreign transaction fee)"
+      ]
+    },
+    {
+      "id": "chase-freedom-flex",
+      "name": "Chase Freedom Flex",
+      "issuer": "Chase",
+      "network": "Mastercard",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.85,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 / 20,000 pts after $500 spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 5,
+          "annualCap": 1500,
+          "fallbackRate": 1,
+          "isRotating": true
+        },
+        "gas": {
+          "rate": 5,
+          "annualCap": 1500,
+          "fallbackRate": 1,
+          "isRotating": true
+        },
+        "online_shopping": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0D4B7A 0%, #0284C7 70%, #0369A1 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x dining & drugstores + 5% quarterly rotating categories ($1,500/qtr cap)",
+        "0% foreign transaction fee · $0 annual fee",
+        "Pools points with Sapphire Preferred or Reserve"
+      ]
+    },
+    {
+      "id": "chase-freedom-rise",
+      "name": "Chase Freedom Rise",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.85,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 25,
+      "welcomeBonusText": "$25 statement credit for automatic payments",
+      "baseRate": 1.5,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E3A8A 0%, #2563EB 70%, #1D4ED8 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Flat 1.5% cash back starter card for building Chase history",
+        "Pools Ultimate Rewards with Sapphire Preferred/Reserve",
+        "$0 annual fee"
+      ]
+    },
+    {
+      "id": "chase-ink-business-preferred",
+      "name": "Chase Ink Business Preferred",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.25,
+      "pooledCpp": 1.85,
+      "isTransferEnabler": true,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1350,
+      "welcomeBonusText": "90,000 Ultimate Rewards pts after $8k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "travel": {
+          "rate": 3,
+          "annualCap": 150000,
+          "fallbackRate": 1
+        },
+        "streaming": {
+          "rate": 3,
+          "annualCap": 150000,
+          "fallbackRate": 1
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #334155 60%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x on travel, shipping, internet, cable & phone services",
+        "Enables 1:1 Ultimate Rewards airline/hotel transfers",
+        "Cell phone protection + primary rental CDW + 0% FTF"
+      ]
+    },
+    {
+      "id": "chase-ink-business-cash",
+      "name": "Chase Ink Business Cash",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.85,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 750,
+      "welcomeBonusText": "$750 / 75,000 UR pts after $6k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "streaming": {
+          "rate": 5,
+          "annualCap": 25000,
+          "fallbackRate": 1
+        },
+        "gas": {
+          "rate": 2,
+          "annualCap": 25000,
+          "fallbackRate": 1
+        },
+        "dining": {
+          "rate": 2,
+          "annualCap": 25000,
+          "fallbackRate": 1
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #0F766E 70%, #115E59 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5% on internet, cable, phone & office supply stores (up to $25k/yr)",
+        "2% at restaurants & gas stations",
+        "Pools into transferable Chase Ultimate Rewards points"
+      ]
+    },
+    {
+      "id": "chase-ink-business-unlimited",
+      "name": "Chase Ink Business Unlimited",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "chase_ur",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.85,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 750,
+      "welcomeBonusText": "$750 / 75,000 UR pts after $6k spend",
+      "baseRate": 1.5,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #334155 0%, #475569 65%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 1.5x catch-all with huge 75k welcome bonus",
+        "Pools with Sapphire Preferred/Reserve for travel transfers",
+        "$0 annual fee"
+      ]
+    },
+    {
+      "id": "chase-world-of-hyatt",
+      "name": "World of Hyatt Credit Card",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "hyatt",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.7,
+      "pooledCpp": 1.7,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 550,
+      "welcomeBonusText": "Up to 60,000 Hyatt Bonus Points",
+      "baseRate": 1,
+      "categoryRates": {
+        "travel": {
+          "rate": 2
+        },
+        "dining": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 150,
+        "creditBreakdown": {
+          "portalHotel": 150
+        },
+        "recurringBenefits": [
+          {
+            "id": "hyatt-fna",
+            "label": "Category 1–4 Free Night Award",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 150,
+            "annualValue": 150,
+            "categoryTag": "hotel",
+            "notes": "Issued after cardmember anniversary (est. $150+ stay value)"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E1B4B 0%, #312E81 65%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Annual Category 1–4 Hyatt Free Night Award every anniversary",
+        "4x at Hyatt properties + 2x dining, airlines & transit",
+        "0% foreign transaction fees"
+      ]
+    },
+    {
+      "id": "chase-bonvoy-bold",
+      "name": "Chase Marriott Bonvoy Bold",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "marriott",
+      "rewardUnit": "points",
+      "standaloneCpp": 0.75,
+      "pooledCpp": 0.75,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 300,
+      "welcomeBonusText": "30,000–60,000 Marriott Bonvoy bonus points",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 2
+        },
+        "streaming": {
+          "rate": 2
+        },
+        "travel": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #334155 55%, #0F172A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Up to 14x total at Marriott hotels (3x card) + 2x groceries, rideshare, streaming & internet",
+        "$0 annual fee & 0% foreign transaction fees",
+        "Automatic Marriott Bonvoy Silver Elite status (5 Elite Night Credits/yr)"
+      ]
+    },
+    {
+      "id": "chase-bonvoy-boundless",
+      "name": "Chase Marriott Bonvoy Boundless",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "marriott",
+      "rewardUnit": "points",
+      "standaloneCpp": 0.75,
+      "pooledCpp": 0.75,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "lastVerified": "Nov 2026",
+      "welcomeBonusValue": 638,
+      "welcomeBonusText": "85,000+ Marriott Bonvoy pts or 3–5 Free Night Awards after $3k spend",
+      "baseRate": 2,
+      "categoryRates": {
+        "groceries": {
+          "rate": 3
+        },
+        "gas": {
+          "rate": 3
+        },
+        "dining": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 2
+        }
+      },
+      "sharedCapCategories": [
+        "groceries",
+        "gas",
+        "dining"
+      ],
+      "sharedCapAnnual": 6000,
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [
+          "Annual 35,000-pt Free Night Award (anniversary)"
+        ],
+        "hotelCreditAnnual": 150,
+        "creditBreakdown": {
+          "portalHotel": 150
+        },
+        "recurringBenefits": [
+          {
+            "id": "boundless-fna",
+            "label": "35,000-pt Free Night Award",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 150,
+            "annualValue": 150,
+            "categoryTag": "hotel",
+            "notes": "Issued after anniversary; can top off up to 50k pts"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #7C2D12 55%, #B45309 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Annual 35k-pt Marriott Free Night Award ($150+ conservative stay value) for $95 AF",
+        "3x groceries, gas & dining (up to $6k/yr combined) · 2x everything else",
+        "6x at Marriott properties & 0% foreign transaction fees"
+      ]
+    },
+    {
+      "id": "chase-ihg-premier",
+      "name": "IHG One Rewards Premier",
+      "issuer": "Chase",
+      "network": "Mastercard",
+      "ecosystem": "ihg",
+      "rewardUnit": "points",
+      "standaloneCpp": 0.55,
+      "pooledCpp": 0.55,
+      "annualFee": 150,
+      "foreignTransactionFeePct": 0,
+      "lastVerified": "Nov 2026",
+      "welcomeBonusValue": 825,
+      "welcomeBonusText": "Up to 150,000+ IHG Bonus Points after $3k–$4k spend",
+      "baseRate": 3,
+      "categoryRates": {
+        "travel": {
+          "rate": 5
+        },
+        "dining": {
+          "rate": 5
+        },
+        "groceries": {
+          "rate": 5
+        },
+        "gas": {
+          "rate": 5
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [
+          "Annual Anniversary Free Night Award (up to 40,000 pts)",
+          "Global Entry / TSA PreCheck credit ($120 every 4 yrs)"
+        ],
+        "hotelCreditAnnual": 150,
+        "creditBreakdown": {
+          "portalHotel": 150
+        },
+        "recurringBenefits": [
+          {
+            "id": "ihg-fna",
+            "label": "40,000-pt Anniversary Free Night",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 150,
+            "annualValue": 150,
+            "categoryTag": "hotel",
+            "notes": "Issued after cardmember anniversary; eligible to top off"
+          },
+          {
+            "id": "ihg-ge",
+            "label": "Global Entry / TSA PreCheck / NEXUS",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 120,
+            "annualValue": 30,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $120 credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #064E3B 0%, #0F766E 55%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "10x at IHG hotels + 5x travel, dining, groceries & gas + 3x base IHG pts (~0.55¢/pt)",
+        "Annual 40k-pt Anniversary Free Night Award + Fourth Night Free on award stays",
+        "Updated $150 annual fee · 0% foreign transaction fees"
+      ]
+    },
+    {
+      "id": "chase-ink-business-premier",
+      "name": "Chase Ink Business Premier",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 195,
+      "foreignTransactionFeePct": 0,
+      "lastVerified": "Nov 2026",
+      "applicationWorkaround": {
+        "badge": "High-Spend Business Card",
+        "detail": "Earns non-transferable cash back only (cannot pool into Chase Ultimate Rewards travel partners). Large single transactions of $5,000+ earn 2.5%."
+      },
+      "welcomeBonusValue": 1000,
+      "welcomeBonusText": "$1,000 cash back after $10k spend in 3 months",
+      "baseRate": 2,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #334155 60%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 2% cash back everywhere + 2.5% on single purchases of $5,000+",
+        "$1,000 welcome bonus · Primary rental CDW & cell phone protection",
+        "$195 annual fee · 0% foreign transaction fee (cash back only, non-transferable)"
+      ]
+    },
+    {
+      "id": "bofa-customized-cash",
+      "name": "BofA Customized Cash Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "ecosystem": "bofa",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 online cash rewards bonus after $1k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 2,
+          "annualCap": 10000,
+          "fallbackRate": 1
+        }
+      },
+      "choiceBonusCategories": [
+        "dining",
+        "travel",
+        "gas",
+        "online_shopping"
+      ],
+      "choiceBonusRate": 3,
+      "choiceBonusAnnualCap": 10000,
+      "sharedCapCategories": [
+        "dining",
+        "travel",
+        "gas",
+        "online_shopping",
+        "groceries"
+      ],
+      "sharedCapAnnual": 10000,
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #991B1B 0%, #DC2626 65%, #7F1D1D 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3% in your choice of category (online shopping, dining, travel, or gas)",
+        "2% at grocery stores & wholesale clubs ($2,500/qtr combined cap)",
+        "$0 annual fee (boostable up to 50%–75% via BofA Rewards honors tiers)"
+      ]
+    },
+    {
+      "id": "bofa-unlimited-cash",
+      "name": "BofA Unlimited Cash Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "ecosystem": "bofa",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 online cash rewards bonus after $1k spend",
+      "baseRate": 1.5,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E3A8A 0%, #B91C1C 75%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 1.5% cash back on all purchases",
+        "Scales up to 2.25%–2.62% flat with BofA Rewards Honors tiers",
+        "$0 annual fee"
+      ]
+    },
+    {
+      "id": "bofa-travel-rewards",
+      "name": "BofA Travel Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "ecosystem": "bofa",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 250,
+      "welcomeBonusText": "25,000 online bonus points ($250 travel credit)",
+      "baseRate": 1.5,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #1D4ED8 70%, #0369A1 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 1.5x points on all purchases for travel/dining credits",
+        "$0 annual fee & 0% foreign transaction fees",
+        "No travel portal restrictions"
+      ]
+    },
+    {
+      "id": "bofa-premium-rewards",
+      "name": "BofA Premium Rewards",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "ecosystem": "bofa",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 600,
+      "welcomeBonusText": "60,000 bonus points ($600 value) after $4k spend",
+      "baseRate": 1.5,
+      "categoryRates": {
+        "travel": {
+          "rate": 2
+        },
+        "dining": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 100,
+        "statementCreditsList": [
+          "$100 Airline Incidental Credit"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "airlineIncidental": 100
+        },
+        "recurringBenefits": [
+          {
+            "id": "bofa-pr-airline",
+            "label": "Airline Incidental Fee Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 100,
+            "categoryTag": "airline",
+            "notes": "Seat upgrades, baggage fees & lounge passes each calendar year"
+          },
+          {
+            "id": "bofa-pr-ge",
+            "label": "TSA PreCheck / Global Entry Credit",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 25,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $100 statement credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #334155 0%, #0F172A 70%, #475569 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "2x travel & dining, 1.5x everything else (0% FTF)",
+        "$100 annual airline incidental fee credit covers the $95 fee",
+        "TSA PreCheck / Global Entry credit"
+      ]
+    },
+    {
+      "id": "bofa-premium-rewards-elite",
+      "name": "BofA Premium Rewards Elite",
+      "issuer": "Bank of America",
+      "network": "Visa",
+      "ecosystem": "bofa",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.15,
+      "pooledCpp": 1.15,
+      "annualFee": 550,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 750,
+      "welcomeBonusText": "75,000 bonus points after $5k spend",
+      "baseRate": 1.5,
+      "categoryRates": {
+        "travel": {
+          "rate": 2
+        },
+        "dining": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "full",
+        "statementCreditsAnnual": 450,
+        "statementCreditsList": [
+          "$300 Airline Incidental Credit",
+          "$150 Lifestyle Credit (rideshare, dining, streaming)"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "airlineIncidental": 300,
+          "diningRideshare": 150
+        },
+        "recurringBenefits": [
+          {
+            "id": "bofa-pre-airline",
+            "label": "Airline Incidental Fee Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 300,
+            "annualValue": 300,
+            "categoryTag": "airline",
+            "notes": "Qualifying airline incidentals each calendar year"
+          },
+          {
+            "id": "bofa-pre-lifestyle",
+            "label": "Lifestyle Credit (Rideshare, Dining, Streaming)",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 150,
+            "annualValue": 150,
+            "categoryTag": "dining",
+            "notes": "Rideshare, food delivery, streaming & fitness subscriptions"
+          },
+          {
+            "id": "bofa-pre-ge",
+            "label": "TSA PreCheck / Global Entry Credit",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 25,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $100 statement credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #09090B 0%, #27272A 55%, #3F3F46 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "$300 airline incidental + $150 lifestyle credits annually",
+        "20% airfare discount via BofA Travel Center (~1.25¢/pt airfare value)",
+        "Up to 4 Priority Pass memberships + Primary rental CDW"
+      ]
+    },
+    {
+      "id": "citi-strata-premier",
+      "name": "Citi Strata Premier",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "ecosystem": "citi_ty",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.7,
+      "isTransferEnabler": true,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1000,
+      "welcomeBonusText": "75,000 ThankYou pts after $4k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 3
+        },
+        "gas": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 100,
+        "creditBreakdown": {
+          "portalHotel": 100
+        },
+        "recurringBenefits": [
+          {
+            "id": "strata-premier-hotel",
+            "label": "Annual Hotel Savings Benefit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 100,
+            "categoryTag": "hotel",
+            "notes": "$100 off a single $500+ hotel stay booked via cititravel.com"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E1B4B 0%, #3730A3 60%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x across dining, groceries, travel & gas · 0% FTF",
+        "Unlocks 1:1 airline transfer partners for Double Cash & Strata",
+        "$100 annual hotel savings benefit"
+      ]
+    },
+    {
+      "id": "citi-double-cash",
+      "name": "Citi Double Cash",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "ecosystem": "citi_ty",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.7,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 / 20,000 pts after $1,500 spend",
+      "baseRate": 2,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #0F3D3E 0%, #0F766E 65%, #115E59 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Flat 2% (1% buy + 1% pay) on every category with no caps",
+        "Converts to transferable ThankYou points with Strata Premier",
+        "$0 annual fee (3% foreign transaction fee)"
+      ]
+    },
+    {
+      "id": "citi-strata-elite",
+      "name": "Citi Strata Elite",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "ecosystem": "citi_ty",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.7,
+      "isTransferEnabler": true,
+      "annualFee": 595,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1300,
+      "welcomeBonusText": "80,000+ ThankYou pts after spend",
+      "baseRate": 1.5,
+      "categoryRates": {
+        "dining": {
+          "rate": 3.75
+        },
+        "travel": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "full",
+        "statementCreditsAnnual": 400,
+        "statementCreditsList": [
+          "$300 Citi Travel Hotel Credit (2+ night stay)",
+          "$200 Blacklane Chauffeur Credit ($100 semi-annually)",
+          "$200 Splurge Credit (select brands incl. AA/Best Buy/Live Nation)"
+        ],
+        "hotelCreditAnnual": 300,
+        "creditBreakdown": {
+          "portalHotel": 300,
+          "diningRideshare": 200,
+          "streamingLifestyle": 200
+        },
+        "recurringBenefits": [
+          {
+            "id": "strata-elite-hotel",
+            "label": "Citi Travel Hotel Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 300,
+            "annualValue": 300,
+            "categoryTag": "hotel",
+            "notes": "2+ night hotel stay booked via cititravel.com"
+          },
+          {
+            "id": "strata-elite-blacklane",
+            "label": "Blacklane Chauffeur Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 200,
+            "categoryTag": "rideshare",
+            "notes": "$100 Jan–Jun & $100 Jul–Dec with Blacklane"
+          },
+          {
+            "id": "strata-elite-splurge",
+            "label": "Splurge Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 200,
+            "annualValue": 200,
+            "categoryTag": "shopping",
+            "notes": "Up to $200/yr across 2 chosen brands (AA, Best Buy, Live Nation, etc.)"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #090D16 0%, #1E1B4B 55%, #312E81 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "6x Citi Nights dining (Fri/Sat eve) · 3x dining · 1.5x catch-all · 0% FTF",
+        "$300 Citi Travel hotel + $200 Blacklane + $200 Splurge credits",
+        "Priority Pass Select + 4 American Airlines Admirals Club passes"
+      ]
+    },
+    {
+      "id": "citi-strata",
+      "name": "Citi Strata Card",
+      "issuer": "Citi",
+      "network": "Mastercard",
+      "ecosystem": "citi_ty",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.7,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 300,
+      "welcomeBonusText": "30,000 ThankYou pts after $1,000 spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 3
+        },
+        "gas": {
+          "rate": 3
+        },
+        "streaming": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 2
+        },
+        "dining": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E3A8A 0%, #0284C7 65%, #0F172A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x supermarkets, gas & EV charging, transit & self-select streaming",
+        "2x restaurants + 5x hotels/cars/attractions via cititravel.com",
+        "$0 annual fee · pools ThankYou pts with Strata Premier / Elite"
+      ]
+    },
+    {
+      "id": "capital-one-venture-x",
+      "name": "Capital One Venture X",
+      "issuer": "Capital One",
+      "network": "Visa",
+      "ecosystem": "c1_miles",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.5,
+      "pooledCpp": 1.65,
+      "isTransferEnabler": true,
+      "annualFee": 395,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1200,
+      "welcomeBonusText": "75,000 Venture miles after $4k spend",
+      "baseRate": 2,
+      "categoryRates": {
+        "travel": {
+          "rate": 5
+        }
+      },
+      "perks": {
+        "loungeTier": "full",
+        "statementCreditsAnnual": 100,
+        "statementCreditsList": [
+          "10,000 Anniversary Miles ($100+ value)"
+        ],
+        "hotelCreditAnnual": 300,
+        "creditBreakdown": {
+          "portalHotel": 300,
+          "broadTravel": 100
+        },
+        "recurringBenefits": [
+          {
+            "id": "vx-travel",
+            "label": "Capital One Travel Credit",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 300,
+            "annualValue": 300,
+            "categoryTag": "hotel",
+            "notes": "Flights, hotels, or rental cars via Capital One Travel each cardmember year"
+          },
+          {
+            "id": "vx-anniv",
+            "label": "10,000 Anniversary Bonus Miles",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 100,
+            "annualValue": 100,
+            "categoryTag": "travel",
+            "notes": "10k Venture miles ($100+ baseline travel value) after anniversary"
+          },
+          {
+            "id": "vx-ge",
+            "label": "Global Entry / TSA PreCheck Credit",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 120,
+            "annualValue": 30,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $120 credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #090D16 0%, #1F2937 65%, #374151 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "2x miles on every single purchase · 0% foreign transaction fee",
+        "$300 travel portal credit + 10k anniversary miles offset the $395 fee",
+        "Capital One Lounges, Priority Pass & Primary Rental CDW"
+      ]
+    },
+    {
+      "id": "capital-one-venture",
+      "name": "Capital One Venture",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "ecosystem": "c1_miles",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.5,
+      "pooledCpp": 1.65,
+      "isTransferEnabler": true,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1100,
+      "welcomeBonusText": "75,000 Venture miles after $4k spend",
+      "baseRate": 2,
+      "categoryRates": {
+        "travel": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "recurringBenefits": [
+          {
+            "id": "venture-ge",
+            "label": "Global Entry / TSA PreCheck Credit",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 120,
+            "annualValue": 30,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $120 statement credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #0F172A 65%, #334155 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 2x transferable miles on every purchase",
+        "Global Entry / TSA PreCheck credit + 0% foreign transaction fee",
+        "Converts Savor cash back 1:1 into airline transfer miles"
+      ]
+    },
+    {
+      "id": "capital-one-venture-one",
+      "name": "Capital One VentureOne",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "ecosystem": "c1_miles",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.65,
+      "isTransferEnabler": true,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 300,
+      "welcomeBonusText": "20,000 Venture miles after $500 spend",
+      "baseRate": 1.25,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0369A1 0%, #0284C7 65%, #0F172A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "No-annual-fee access to Capital One airline transfer partners",
+        "1.25x miles on every purchase · 0% foreign transaction fee",
+        "Pairs with Savor for a $0 annual fee travel duo"
+      ]
+    },
+    {
+      "id": "capital-one-savor",
+      "name": "Capital One Savor",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "ecosystem": "c1_miles",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.65,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 250,
+      "welcomeBonusText": "$250 cash bonus after $500 spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 3
+        },
+        "streaming": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #4A1D1F 0%, #9F1239 60%, #7F1D1D 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 3% on dining, groceries, entertainment & streaming",
+        "Converts 1:1 into Venture Miles when paired with Venture / Venture X",
+        "$0 annual fee & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "capital-one-quicksilver",
+      "name": "Capital One Quicksilver",
+      "issuer": "Capital One",
+      "network": "Mastercard",
+      "ecosystem": "c1_miles",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.65,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 cash bonus after $500 spend",
+      "baseRate": 1.5,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #475569 0%, #64748B 55%, #334155 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Simple unlimited 1.5% cash back on every purchase",
+        "$0 annual fee & 0% foreign transaction fee",
+        "Can transfer cash rewards to Venture miles if paired"
+      ]
+    },
+    {
+      "id": "wells-fargo-autograph",
+      "name": "Wells Fargo Autograph",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "ecosystem": "wells_fargo",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.45,
+      "isTransferEnabler": true,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "20,000 pts ($200) after $1k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 3
+        },
+        "gas": {
+          "rate": 3
+        },
+        "streaming": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #7F1D1D 0%, #B91C1C 65%, #991B1B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x across dining, travel, transit, gas & streaming for $0 fee",
+        "Cell phone protection up to $600 & 0% foreign transaction fee",
+        "Unlocks airline & hotel point transfers"
+      ]
+    },
+    {
+      "id": "wells-fargo-autograph-journey",
+      "name": "Wells Fargo Autograph Journey",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "ecosystem": "wells_fargo",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.45,
+      "isTransferEnabler": true,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 800,
+      "welcomeBonusText": "60,000 pts after $4k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "travel": {
+          "rate": 4
+        },
+        "dining": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 50,
+        "statementCreditsList": [
+          "$50 Annual Airfare Credit"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "broadTravel": 50
+        },
+        "recurringBenefits": [
+          {
+            "id": "wf-aj-air",
+            "label": "Annual Airfare Credit",
+            "cadence": "annual",
+            "resetBasis": "anniversary",
+            "periodAmount": 50,
+            "annualValue": 50,
+            "categoryTag": "airline",
+            "notes": "Automatic $50 credit on $50+ airline purchase each cardmember year"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #450A0A 0%, #991B1B 60%, #7F1D1D 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5x hotels, 4x airlines, 3x other travel & dining (no portal required)",
+        "$50 annual airline credit + cell phone protection",
+        "0% foreign transaction fee & airline transfer partners"
+      ]
+    },
+    {
+      "id": "wells-fargo-active-cash",
+      "name": "Wells Fargo Active Cash",
+      "issuer": "Wells Fargo",
+      "network": "Visa",
+      "ecosystem": "wells_fargo",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.45,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 cash rewards after $500 spend",
+      "baseRate": 2,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #312E81 0%, #4338CA 65%, #3730A3 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 2% cash rewards on all purchases",
+        "Converts to transferable points when paired with Autograph",
+        "Cell phone protection up to $600 ($0 annual fee)"
+      ]
+    },
+    {
+      "id": "wells-fargo-one-key",
+      "name": "Wells Fargo One Key",
+      "issuer": "Wells Fargo",
+      "network": "Mastercard",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 400,
+      "welcomeBonusText": "$400 in OneKeyCash after $1k spend",
+      "baseRate": 1.5,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 3
+        },
+        "gas": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #1E40AF 65%, #1D4ED8 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3% on dining, groceries, gas & Expedia/Hotels.com/Vrbo",
+        "1.5% everywhere else · 0% foreign transaction fee",
+        "Automatic One Key Silver status + cell phone protection"
+      ]
+    },
+    {
+      "id": "bilt-blue",
+      "name": "Bilt Blue Card",
+      "issuer": "Bilt",
+      "network": "Mastercard",
+      "ecosystem": "bilt",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.85,
+      "pooledCpp": 1.85,
+      "isTransferEnabler": true,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 100,
+      "welcomeBonusText": "$100 Bilt Cash welcome bonus upon approval",
+      "baseRate": 1,
+      "categoryRates": {
+        "rent": {
+          "rate": 1,
+          "annualCap": 100000,
+          "fallbackRate": 0
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #1D4ED8 65%, #1E293B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "0.5x–1.25x pts on US rent/mortgage based on everyday spend ratio (up to $100k/yr)",
+        "1x on all everyday purchases · 1:1 transfers to Hyatt, Alaska & United",
+        "$0 annual fee & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "bilt-obsidian",
+      "name": "Bilt Obsidian Card",
+      "issuer": "Bilt",
+      "network": "Mastercard",
+      "ecosystem": "bilt",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.85,
+      "pooledCpp": 1.85,
+      "isTransferEnabler": true,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 Bilt Cash welcome bonus upon approval",
+      "baseRate": 1,
+      "categoryRates": {
+        "rent": {
+          "rate": 1,
+          "annualCap": 100000,
+          "fallbackRate": 0
+        },
+        "travel": {
+          "rate": 2
+        }
+      },
+      "choiceBonusCategories": [
+        "dining",
+        "groceries"
+      ],
+      "choiceBonusRate": 3,
+      "choiceBonusAnnualCap": 25000,
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 100,
+        "statementCreditsList": [
+          "$100 Annual Bilt Cash Credit"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "diningRideshare": 100
+        },
+        "recurringBenefits": [
+          {
+            "id": "bilt-obs-cash",
+            "label": "Annual Bilt Cash Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 100,
+            "categoryTag": "dining",
+            "notes": "Annual Bilt Cash statement credit across partner purchases"
+          }
+        ],
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #111827 0%, #27272A 65%, #09090B 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3x on your choice of dining or groceries (up to $25k/yr) + 2x travel",
+        "0.5x–1.25x on US rent/mortgage by spend ratio + $100 annual Bilt Cash credit",
+        "Primary rental CDW, cell protection & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "bilt-palladium",
+      "name": "Bilt Palladium Card",
+      "issuer": "Bilt",
+      "network": "Mastercard",
+      "ecosystem": "bilt",
+      "rewardUnit": "points",
+      "standaloneCpp": 1.85,
+      "pooledCpp": 1.85,
+      "isTransferEnabler": true,
+      "annualFee": 495,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1225,
+      "welcomeBonusText": "50,000 Bilt pts + $300 Bilt Cash after $4k spend",
+      "baseRate": 2,
+      "categoryRates": {
+        "rent": {
+          "rate": 1,
+          "annualCap": 100000,
+          "fallbackRate": 0
+        }
+      },
+      "perks": {
+        "loungeTier": "full",
+        "statementCreditsAnnual": 200,
+        "statementCreditsList": [
+          "$400 Bilt Travel Hotel Credit ($200 semi-annually)",
+          "$200 Annual Bilt Cash Credit"
+        ],
+        "hotelCreditAnnual": 400,
+        "creditBreakdown": {
+          "portalHotel": 400,
+          "diningRideshare": 200
+        },
+        "recurringBenefits": [
+          {
+            "id": "bilt-pal-hotel",
+            "label": "Bilt Travel Hotel Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 200,
+            "annualValue": 400,
+            "categoryTag": "hotel",
+            "notes": "$200 Jan–Jun & $200 Jul–Dec via Bilt Travel hotel portal"
+          },
+          {
+            "id": "bilt-pal-cash",
+            "label": "Annual Bilt Cash Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 200,
+            "annualValue": 200,
+            "categoryTag": "dining",
+            "notes": "Annual Bilt Cash credit on eligible Bilt ecosystem spend"
+          }
+        ],
+        "hasPrimaryRentalCdw": true,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #475569 0%, #CBD5E1 55%, #64748B 100%)",
+      "cardTextTone": "dark",
+      "highlights": [
+        "Flat 2x points on all everyday purchases + 0.5x–1.25x on US rent/mortgage",
+        "$400 Bilt Travel hotel credit + $200 Bilt Cash + Priority Pass lounge access",
+        "Primary rental CDW, cell protection & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "amex-gold",
+      "name": "American Express Gold Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "ecosystem": "amex_mr",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.75,
+      "isTransferEnabler": true,
+      "annualFee": 325,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1050,
+      "welcomeBonusText": "60,000 Membership Rewards pts after $6k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 4,
+          "annualCap": 50000,
+          "fallbackRate": 1
+        },
+        "groceries": {
+          "rate": 4,
+          "annualCap": 25000,
+          "fallbackRate": 1
+        },
+        "travel": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 424,
+        "statementCreditsList": [
+          "$120 Uber Cash ($10/mo)",
+          "$120 Dining Credit ($10/mo)",
+          "$100 Resy Credit ($50 semi-annually)",
+          "$84 Dunkin Credit ($7/mo)"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "diningRideshare": 424
+        },
+        "recurringBenefits": [
+          {
+            "id": "gold-uber",
+            "label": "Uber Cash (Rides & Uber Eats)",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 10,
+            "annualValue": 120,
+            "categoryTag": "rideshare",
+            "notes": "$10/mo added to Uber account when Gold card is linked (use-it-or-lose-it)"
+          },
+          {
+            "id": "gold-dining",
+            "label": "Monthly Dining Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 10,
+            "annualValue": 120,
+            "categoryTag": "dining",
+            "notes": "$10/mo at Grubhub, The Cheesecake Factory, Goldbelly, Wine.com & Five Guys"
+          },
+          {
+            "id": "gold-resy",
+            "label": "Resy Dining Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 50,
+            "annualValue": 100,
+            "categoryTag": "dining",
+            "notes": "$50 Jan–Jun & $50 Jul–Dec at US Resy restaurants (enrollment required)"
+          },
+          {
+            "id": "gold-dunkin",
+            "label": "Dunkin' Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 7,
+            "annualValue": 84,
+            "categoryTag": "dining",
+            "notes": "$7/mo at US Dunkin' locations (enrollment required)"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #B8860B 0%, #D4AF37 45%, #8A6623 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "4x points at restaurants worldwide & US supermarkets",
+        "Up to $424 in annual dining, Resy, Uber Cash & Dunkin credits · 0% FTF",
+        "Transferable Membership Rewards to 20+ airline/hotel partners"
+      ]
+    },
+    {
+      "id": "amex-platinum",
+      "name": "American Express Platinum",
+      "issuer": "American Express",
+      "network": "Amex",
+      "ecosystem": "amex_mr",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.75,
+      "isTransferEnabler": true,
+      "annualFee": 895,
+      "foreignTransactionFeePct": 0,
+      "welcomeBonusValue": 1500,
+      "welcomeBonusText": "80,000+ Membership Rewards pts after $8k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "travel": {
+          "rate": 5
+        }
+      },
+      "perks": {
+        "loungeTier": "full",
+        "statementCreditsAnnual": 1764,
+        "statementCreditsList": [
+          "$600 Hotel Credit (FHR/THC $300 semi-annually)",
+          "$400 Resy Dining Credit",
+          "$300 Digital Entertainment Credit ($25/mo)",
+          "$300 Lululemon Credit ($75/qtr)",
+          "$200 Airline Incidental Credit",
+          "$200 Uber Cash",
+          "$209 CLEAR+ & $155 Walmart+ Credits"
+        ],
+        "hotelCreditAnnual": 600,
+        "creditBreakdown": {
+          "portalHotel": 600,
+          "airlineIncidental": 200,
+          "diningRideshare": 600,
+          "streamingLifestyle": 964
+        },
+        "recurringBenefits": [
+          {
+            "id": "plat-hotel",
+            "label": "Fine Hotels + Resorts / THC Hotel Credit",
+            "cadence": "semiannual",
+            "resetBasis": "calendar",
+            "periodAmount": 300,
+            "annualValue": 600,
+            "categoryTag": "hotel",
+            "notes": "$300 Jan–Jun & $300 Jul–Dec on prepaid FHR or THC stays"
+          },
+          {
+            "id": "plat-resy",
+            "label": "Resy Dining Credit",
+            "cadence": "quarterly",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 400,
+            "categoryTag": "dining",
+            "notes": "$100/quarter at US Resy restaurants (enrollment required)"
+          },
+          {
+            "id": "plat-ent",
+            "label": "Digital Entertainment Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 25,
+            "annualValue": 300,
+            "categoryTag": "streaming",
+            "notes": "$25/mo across Disney+, Hulu, ESPN+, Peacock, NYT & WSJ"
+          },
+          {
+            "id": "plat-lulu",
+            "label": "Lululemon Credit",
+            "cadence": "quarterly",
+            "resetBasis": "calendar",
+            "periodAmount": 75,
+            "annualValue": 300,
+            "categoryTag": "shopping",
+            "notes": "$75/quarter at US Lululemon stores or online (enrollment required)"
+          },
+          {
+            "id": "plat-airline",
+            "label": "Airline Incidental Fee Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 200,
+            "annualValue": 200,
+            "categoryTag": "airline",
+            "notes": "Baggage, seat fees & incidentals on 1 selected airline per calendar year"
+          },
+          {
+            "id": "plat-uber",
+            "label": "Uber Cash (Rides & Uber Eats)",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 15,
+            "decemberAmount": 35,
+            "annualValue": 200,
+            "categoryTag": "rideshare",
+            "notes": "$15/mo Jan–Nov + $35 in Dec (use-it-or-lose-it)"
+          },
+          {
+            "id": "plat-clear",
+            "label": "CLEAR+ Membership Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 209,
+            "annualValue": 209,
+            "categoryTag": "security",
+            "notes": "Up to $209/yr toward CLEAR+ membership"
+          },
+          {
+            "id": "plat-walmart",
+            "label": "Walmart+ Membership Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 12.95,
+            "annualValue": 155,
+            "categoryTag": "shopping",
+            "notes": "Covers $12.95/mo Walmart+ monthly plan (+ Paramount+)"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #CBD5E1 0%, #94A3B8 55%, #64748B 100%)",
+      "cardTextTone": "dark",
+      "highlights": [
+        "Centurion Lounge, Delta Sky Club & Priority Pass access · 0% FTF",
+        "5x direct flights + $600 FHR/THC hotel + $400 Resy + $300 Lululemon credits",
+        "$300 digital entertainment, $200 Uber Cash, $200 airline fee & CLEAR+ credits"
+      ]
+    },
+    {
+      "id": "amex-green",
+      "name": "Amex Classic Green Card",
+      "issuer": "American Express",
+      "network": "Amex",
+      "ecosystem": "amex_mr",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.75,
+      "isTransferEnabler": true,
+      "annualFee": 150,
+      "foreignTransactionFeePct": 0,
+      "applicationWorkaround": {
+        "badge": "Product Change Required",
+        "detail": "Closed to direct applications in Aug 2026. Open an Amex Gold or Platinum card first, then request a product change (downgrade) to Classic Green after 1 year."
+      },
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "No direct welcome bonus (downgrade path only)",
+      "baseRate": 1,
+      "categoryRates": {
+        "travel": {
+          "rate": 3
+        },
+        "dining": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 219,
+        "statementCreditsList": [
+          "$219 CLEAR+ Credit"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "streamingLifestyle": 219
+        },
+        "recurringBenefits": [
+          {
+            "id": "green-clear",
+            "label": "CLEAR+ Membership Credit",
+            "cadence": "annual",
+            "resetBasis": "calendar",
+            "periodAmount": 219,
+            "annualValue": 219,
+            "categoryTag": "security",
+            "notes": "Up to $219/yr toward CLEAR+ annual membership"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #065F46 0%, #10B981 60%, #047857 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Broad 3x on travel, transit, rideshare & restaurants worldwide",
+        "Up to $219 annual CLEAR+ membership credit · 0% FTF",
+        "Only available by downgrading from Amex Gold or Platinum after Year 1"
+      ]
+    },
+    {
+      "id": "amex-blue-cash-preferred",
+      "name": "Amex Blue Cash Preferred",
+      "issuer": "American Express",
+      "network": "Amex",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 95,
+      "foreignTransactionFeePct": 2.7,
+      "welcomeBonusValue": 250,
+      "welcomeBonusText": "$250 statement credit after $3k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 6,
+          "annualCap": 6000,
+          "fallbackRate": 1
+        },
+        "streaming": {
+          "rate": 6
+        },
+        "gas": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 84,
+        "statementCreditsList": [
+          "$84 Disney Bundle Credit ($7/mo)"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "streamingLifestyle": 84
+        },
+        "recurringBenefits": [
+          {
+            "id": "bcp-disney",
+            "label": "Disney Bundle Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 7,
+            "annualValue": 84,
+            "categoryTag": "streaming",
+            "notes": "$7/mo statement credit on eligible Disney Bundle subscription ($9.99+/mo)"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #0E4D92 0%, #0284C7 60%, #1E3A8A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "6% cash back at US supermarkets (up to $6,000/yr)",
+        "6% on select US streaming subscriptions",
+        "3% on transit & US gas stations (2.7% foreign tx fee)"
+      ]
+    },
+    {
+      "id": "amex-blue-cash-everyday",
+      "name": "Amex Blue Cash Everyday",
+      "issuer": "American Express",
+      "network": "Amex",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 2.7,
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 statement credit after $2k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 3,
+          "annualCap": 6000,
+          "fallbackRate": 1
+        },
+        "online_shopping": {
+          "rate": 3,
+          "annualCap": 6000,
+          "fallbackRate": 1
+        },
+        "gas": {
+          "rate": 3,
+          "annualCap": 6000,
+          "fallbackRate": 1
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 84,
+        "statementCreditsList": [
+          "$84 Disney Bundle Credit ($7/mo)"
+        ],
+        "hotelCreditAnnual": 0,
+        "creditBreakdown": {
+          "streamingLifestyle": 84
+        },
+        "recurringBenefits": [
+          {
+            "id": "bce-disney",
+            "label": "Disney Bundle Credit",
+            "cadence": "monthly",
+            "resetBasis": "calendar",
+            "periodAmount": 7,
+            "annualValue": 84,
+            "categoryTag": "streaming",
+            "notes": "$7/mo statement credit on eligible Disney Bundle subscription ($9.99+/mo)"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #0369A1 0%, #38BDF8 75%, #0284C7 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3% cash back on US online retail purchases (up to $6k/yr)",
+        "3% at US supermarkets & US gas stations",
+        "$0 annual fee everyday earner"
+      ]
+    },
+    {
+      "id": "amex-blue-business-plus",
+      "name": "Amex Blue Business Plus",
+      "issuer": "American Express",
+      "network": "Amex",
+      "ecosystem": "amex_mr",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1.75,
+      "isTransferEnabler": true,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 2.7,
+      "applicationWorkaround": {
+        "badge": "Business Card (Sole Prop OK)",
+        "detail": "Small business card—no LLC required. Freelancers, side-hustlers, and sole proprietors can apply using their SSN and business or side income (2x applies on up to $50,000/yr)."
+      },
+      "welcomeBonusValue": 150,
+      "welcomeBonusText": "15,000 Membership Rewards pts after $3k spend (up to 50k targeted)",
+      "baseRate": 2,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E3A8A 0%, #2563EB 60%, #1D4ED8 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "2x Membership Rewards on all purchases up to $50,000/yr (1x after)",
+        "Unlocks Amex airline & hotel transfer partners with $0 annual fee",
+        "Carries a 2.7% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "aaa-daily-advantage",
+      "name": "AAA Daily Advantage Visa Signature",
+      "issuer": "AAA / Comenity",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "applicationWorkaround": {
+        "badge": "Regional ZIP Check",
+        "detail": "No AAA membership is required, but AAA regional clubs vary by ZIP code and some state pages redirect to a different card. If blocked, use an incognito window or apply via a participating club portal (e.g., AAA Club Alliance) with an eligible ZIP."
+      },
+      "welcomeBonusValue": 100,
+      "welcomeBonusText": "$100 statement credit after $1k spend in 90 days",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 5,
+          "annualCap": 10000,
+          "fallbackRate": 1
+        },
+        "gas": {
+          "rate": 3,
+          "annualCap": 10000,
+          "fallbackRate": 1
+        },
+        "streaming": {
+          "rate": 3
+        }
+      },
+      "sharedCapCategories": [
+        "groceries",
+        "gas"
+      ],
+      "sharedCapAnnual": 10000,
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0C4A6E 0%, #0284C7 60%, #0369A1 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5% on groceries + 3% on gas/EV & wholesale clubs ($500/yr rewards cap combined)",
+        "3% on streaming services & pharmacies (uncapped)",
+        "$0 annual fee & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "aaa-travel-advantage",
+      "name": "AAA Travel Advantage Visa Signature",
+      "issuer": "AAA / Comenity",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "applicationWorkaround": {
+        "badge": "Regional ZIP Check",
+        "detail": "No AAA membership is required, but AAA regional clubs vary by ZIP code and some state pages redirect to a different card. If blocked, use an incognito window or apply via a participating club portal (e.g., AAA Club Alliance) with an eligible ZIP."
+      },
+      "welcomeBonusValue": 100,
+      "welcomeBonusText": "$100 statement credit after $1k spend in 90 days",
+      "baseRate": 1,
+      "categoryRates": {
+        "gas": {
+          "rate": 5,
+          "annualCap": 7000,
+          "fallbackRate": 1
+        },
+        "travel": {
+          "rate": 3
+        },
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E3A8A 0%, #1D4ED8 55%, #0F172A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5% on gas & EV charging (up to $350/yr cash back = $7,000 spend)",
+        "3% unlimited on travel, restaurants & grocery stores",
+        "$0 annual fee & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "usbank-altitude-connect",
+      "name": "U.S. Bank Altitude Connect",
+      "issuer": "U.S. Bank",
+      "network": "Visa",
+      "ecosystem": "usbank",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "applicationWorkaround": {
+        "badge": "Redemption Note",
+        "detail": "Open to all applicants with no checking account required, and points are worth 1¢ each toward travel—but statement credit redemptions drop to 0.8¢/pt unless deposited into a U.S. Bank checking or savings account."
+      },
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "20,000 bonus points ($200 travel/deposit value) after $1k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "travel": {
+          "rate": 4
+        },
+        "gas": {
+          "rate": 4,
+          "annualCap": 4000,
+          "fallbackRate": 1
+        },
+        "dining": {
+          "rate": 2
+        },
+        "groceries": {
+          "rate": 2
+        },
+        "streaming": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "basic",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "recurringBenefits": [
+          {
+            "id": "usb-ac-ge",
+            "label": "Global Entry / TSA PreCheck Credit",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 25,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $100 statement credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #1E40AF 65%, #1D4ED8 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "4x on travel (5x prepaid via U.S. Bank Travel Center) & 4x gas/EV ($1k/qtr cap)",
+        "2x on dining, grocery stores & streaming services · 0% FTF",
+        "4 free Priority Pass lounge visits/yr + $100 Global Entry/TSA PreCheck credit"
+      ]
+    },
+    {
+      "id": "usbank-cash-plus",
+      "name": "U.S. Bank Cash+",
+      "issuer": "U.S. Bank",
+      "network": "Visa",
+      "ecosystem": "usbank",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "applicationWorkaround": {
+        "badge": "Quarterly Activation",
+        "detail": "Must activate your two 5% categories and one 2% category every quarter. Statement credits redeem at full 1¢ value with no bank account; direct cash deposits require a U.S. Bank checking or savings account."
+      },
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "$200 rewards bonus after $1k spend in 90 days",
+      "baseRate": 1,
+      "categoryRates": {
+        "streaming": {
+          "rate": 5,
+          "annualCap": 8000,
+          "fallbackRate": 1
+        },
+        "online_shopping": {
+          "rate": 5,
+          "annualCap": 8000,
+          "fallbackRate": 1
+        }
+      },
+      "choiceBonusCategories": [
+        "groceries",
+        "gas",
+        "dining"
+      ],
+      "choiceBonusRate": 2,
+      "sharedCapCategories": [
+        "streaming",
+        "online_shopping"
+      ],
+      "sharedCapAnnual": 8000,
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #0F4C81 65%, #1D4ED8 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5% on two chosen categories ($2k/qtr combined cap) — e.g. TV/internet/streaming, phone, department stores, or home utilities",
+        "2% on one everyday choice (groceries, gas/EV, or restaurants) · $0 annual fee",
+        "3% foreign transaction fee (keep to US bills & retail)"
+      ]
+    },
+    {
+      "id": "discover-it-cash-back",
+      "name": "Discover it Cash Back",
+      "issuer": "Discover",
+      "network": "Discover",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "applicationWorkaround": {
+        "badge": "Rotating Categories",
+        "detail": "5% bonus categories rotate each quarter (up to $1,500 spend/quarter) and must be activated quarterly. Discover acceptance abroad can be narrower than Visa/Mastercard."
+      },
+      "welcomeBonusValue": 250,
+      "welcomeBonusText": "Unlimited Year 1 Cashback Match (doubles all first-year cash back)",
+      "firstYearCashbackMatch": true,
+      "lastVerified": "Nov 2026",
+      "baseRate": 1,
+      "categoryRates": {
+        "groceries": {
+          "rate": 5,
+          "annualCap": 1500,
+          "fallbackRate": 1,
+          "isRotating": true
+        },
+        "dining": {
+          "rate": 5,
+          "annualCap": 1500,
+          "fallbackRate": 1,
+          "isRotating": true
+        },
+        "gas": {
+          "rate": 5,
+          "annualCap": 1500,
+          "fallbackRate": 1,
+          "isRotating": true
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #9A3412 0%, #EA580C 60%, #C2410C 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5% rotating quarterly categories up to $1,500/qtr (groceries, dining, gas/EV, utilities)",
+        "First-year Cashback Match automatically doubles every dollar earned in Year 1",
+        "$0 annual fee & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "paypal-cashback-mastercard",
+      "name": "PayPal Cashback Mastercard",
+      "issuer": "PayPal / Synchrony",
+      "network": "Mastercard",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "applicationWorkaround": {
+        "badge": "PayPal Account Required",
+        "detail": "Requires a free PayPal account to apply and redeem. The 3% rate only applies when checking out online with PayPal (other purchases earn 1.5%)."
+      },
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "No upfront welcome bonus",
+      "baseRate": 1.5,
+      "categoryRates": {
+        "online_shopping": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #1E1B4B 0%, #1D4ED8 60%, #0284C7 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 3% cash back when checking out via PayPal online",
+        "Unlimited 1.5% cash back everywhere else Mastercard is accepted",
+        "$0 annual fee (3% foreign transaction fee)"
+      ]
+    },
+    {
+      "id": "robinhood-gold-card",
+      "name": "Robinhood Gold Card",
+      "issuer": "Robinhood",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 3,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 50,
+      "membershipNote": "Requires Robinhood Gold ($50/yr annual plan) · 3% FTF on new accounts",
+      "applicationWorkaround": {
+        "badge": "Waitlist / Bypass",
+        "detail": "Uses an in-app waitlist for Robinhood Gold members, though applicants frequently bypass the queue via a Credit Karma marketplace pre-approval offer."
+      },
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "No public cash welcome bonus (waitlist / bypass)",
+      "baseRate": 3,
+      "categoryRates": {
+        "travel": {
+          "rate": 3.5
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": false
+      },
+      "cardGradient": "linear-gradient(135deg, #78350F 0%, #D97706 55%, #92400E 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 3% cash back across every category into Robinhood brokerage",
+        "5% on travel booked via Robinhood Travel · 3% foreign tx fee (new cards)",
+        "Member-only: requires active Robinhood Gold subscription ($50/yr)"
+      ]
+    },
+    {
+      "id": "sofi-unlimited-2",
+      "name": "SoFi Unlimited 2% Credit Card",
+      "issuer": "SoFi",
+      "network": "Mastercard",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 120,
+      "membershipNote": "Requires SoFi Plus ($10/mo or $120/yr) for 2.2% boosted rate",
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "Up to 2.2% boosted rate with SoFi Plus",
+      "baseRate": 2.2,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0E7490 0%, #0891B2 60%, #155E75 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "2.2% unlimited cash back with SoFi Plus direct deposit",
+        "$0 annual fee & 0% foreign transaction fees",
+        "Cell phone protection included"
+      ]
+    },
+    {
+      "id": "sofi-everyday-cash",
+      "name": "SoFi Everyday Cash Rewards",
+      "issuer": "SoFi",
+      "network": "Mastercard",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 0,
+      "membershipNote": "Requires free SoFi checking/savings account",
+      "applicationWorkaround": {
+        "badge": "Targeted Invite Only",
+        "detail": "Not open to general public applications. Open a SoFi checking/savings account, opt into offers, and check your dashboard for a targeted invite (otherwise consider SoFi Unlimited 2%)."
+      },
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "Targeted invitation-only everyday rewards card",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": true,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #0284C7 65%, #0369A1 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "3% dining & 2% groceries with $0 annual fee",
+        "0% foreign transaction fees & cell phone protection",
+        "Member-only SoFi checking/savings card"
+      ]
+    },
+    {
+      "id": "citi-costco-anywhere",
+      "name": "Costco Anywhere Visa by Citi",
+      "issuer": "Citi",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 65,
+      "membershipNote": "Requires active Costco Gold Star membership ($65/yr)",
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "No public sign-up bonus (annual Costco certificate)",
+      "baseRate": 1,
+      "categoryRates": {
+        "gas": {
+          "rate": 4,
+          "annualCap": 7000,
+          "fallbackRate": 1
+        },
+        "dining": {
+          "rate": 3
+        },
+        "travel": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E293B 0%, #334155 55%, #B91C1C 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "4% on eligible gas & EV charging (up to $7,000/yr)",
+        "3% on restaurants & eligible travel · 2% at Costco",
+        "$0 card annual fee & 0% foreign transaction fee"
+      ]
+    },
+    {
+      "id": "chase-prime-visa",
+      "name": "Prime Visa",
+      "issuer": "Chase",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 139,
+      "membershipNote": "Requires active Amazon Prime membership ($139/yr)",
+      "welcomeBonusValue": 150,
+      "welcomeBonusText": "$100–$200 Amazon Gift Card upon approval",
+      "baseRate": 1,
+      "categoryRates": {
+        "online_shopping": {
+          "rate": 5
+        },
+        "dining": {
+          "rate": 2
+        },
+        "gas": {
+          "rate": 2
+        },
+        "travel": {
+          "rate": 2
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0F172A 0%, #1E293B 60%, #0369A1 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "5% back at Amazon.com, Amazon Fresh & Whole Foods Market",
+        "2% at restaurants, gas stations & local transit",
+        "0% foreign transaction fees ($0 card annual fee)"
+      ]
+    },
+    {
+      "id": "fidelity-rewards-visa",
+      "name": "Fidelity Rewards Visa Signature",
+      "issuer": "Fidelity / Elan",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 0,
+      "membershipNote": "Requires free Fidelity brokerage/retirement account for 2%",
+      "welcomeBonusValue": 150,
+      "welcomeBonusText": "$150 bonus after $1,000 spend",
+      "baseRate": 2,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "recurringBenefits": [
+          {
+            "id": "fid-ge",
+            "label": "TSA PreCheck / Global Entry Credit",
+            "cadence": "multi_year",
+            "resetBasis": "calendar",
+            "periodAmount": 100,
+            "annualValue": 25,
+            "cycleYears": 4,
+            "categoryTag": "security",
+            "notes": "Up to $100 statement credit once every 4 years"
+          }
+        ],
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #14532D 0%, #15803D 65%, #166534 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Unlimited 2% cash back deposited into Fidelity accounts",
+        "$0 annual fee & 0% foreign transaction fee",
+        "TSA PreCheck / Global Entry credit ($100)"
+      ]
+    },
+    {
+      "id": "alliant-cashback-visa",
+      "name": "Alliant Cashback Visa Signature",
+      "issuer": "Alliant Credit Union",
+      "network": "Visa",
+      "ecosystem": "cashback",
+      "rewardUnit": "cashback",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "requiresMembership": true,
+      "membershipFeeAnnual": 0,
+      "membershipNote": "Requires Alliant Credit Union membership (1.5% flat rate post-2025)",
+      "welcomeBonusValue": 0,
+      "welcomeBonusText": "No public sign-up bonus",
+      "baseRate": 1.5,
+      "categoryRates": {},
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #1E3A8A 0%, #0369A1 65%, #0F172A 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Flat 1.5% cash back uncapped (2.5% Tier One program discontinued late 2025)",
+        "$0 annual fee & 0% foreign transaction fees",
+        "Member-only credit union card"
+      ]
+    },
+    {
+      "id": "navy-federal-more-rewards",
+      "name": "Navy Federal More Rewards Amex",
+      "issuer": "Navy Federal",
+      "network": "Amex",
+      "ecosystem": "cashback",
+      "rewardUnit": "points",
+      "standaloneCpp": 1,
+      "pooledCpp": 1,
+      "annualFee": 0,
+      "foreignTransactionFeePct": 0,
+      "lastVerified": "Nov 2026",
+      "requiresMembership": true,
+      "membershipFeeAnnual": 0,
+      "membershipNote": "Requires Navy Federal Credit Union membership (military, veterans, DoD & family)",
+      "welcomeBonusValue": 200,
+      "welcomeBonusText": "20,000 bonus points ($200 value) after $2k spend",
+      "baseRate": 1,
+      "categoryRates": {
+        "dining": {
+          "rate": 3
+        },
+        "groceries": {
+          "rate": 3
+        },
+        "gas": {
+          "rate": 3
+        }
+      },
+      "perks": {
+        "loungeTier": "none",
+        "statementCreditsAnnual": 0,
+        "statementCreditsList": [],
+        "hotelCreditAnnual": 0,
+        "hasPrimaryRentalCdw": false,
+        "hasCellPhoneProtection": false,
+        "noForeignTxFee": true
+      },
+      "cardGradient": "linear-gradient(135deg, #0C4A6E 0%, #1E3A8A 60%, #172554 100%)",
+      "cardTextTone": "light",
+      "highlights": [
+        "Uncapped 3x on supermarkets, restaurants & food delivery, and gas/transit (1¢/pt)",
+        "$0 annual fee & 0% foreign transaction fees",
+        "Exclusive to Navy Federal Credit Union members (Amex network)"
+      ]
+    }
+  ],
+  "spendCategories": [
+    {
+      "id": "dining",
+      "label": "Dining & Restaurants",
+      "description": "Restaurants, cafes, bars, and food delivery",
+      "defaultMonthly": 400
+    },
+    {
+      "id": "groceries",
+      "label": "Groceries & Supermarkets",
+      "description": "Supermarkets and neighborhood grocery stores",
+      "defaultMonthly": 550
+    },
+    {
+      "id": "travel",
+      "label": "Travel & Transit",
+      "description": "Flights, hotels, rideshare, trains, and tolls",
+      "defaultMonthly": 200
+    },
+    {
+      "id": "gas",
+      "label": "Gas & EV Charging",
+      "description": "Fuel stations and public EV chargers",
+      "defaultMonthly": 150
+    },
+    {
+      "id": "streaming",
+      "label": "Streaming & Subscriptions",
+      "description": "Video, music, internet, phone, and digital services",
+      "defaultMonthly": 80
+    },
+    {
+      "id": "online_shopping",
+      "label": "Online Retail & Drugstores",
+      "description": "E-commerce, pharmacies, and department stores",
+      "defaultMonthly": 250
+    },
+    {
+      "id": "rent",
+      "label": "Rent Payments",
+      "description": "Monthly apartment or home lease payments",
+      "defaultMonthly": 0
+    },
+    {
+      "id": "other",
+      "label": "Everything Else",
+      "description": "Utilities, insurance, medical, and general retail",
+      "defaultMonthly": 500
+    }
+  ],
+  "spendPresets": [
+    {
+      "id": "urban_renter",
+      "label": "Urban Renter",
+      "summary": "High dining & rent with balanced travel",
+      "monthly": {
+        "dining": 650,
+        "groceries": 500,
+        "travel": 400,
+        "gas": 80,
+        "streaming": 90,
+        "online_shopping": 350,
+        "rent": 2400,
+        "other": 700
+      },
+      "preferences": {
+        "redemptionMode": "points",
+        "feeTolerance": "any",
+        "pointCpp": 1.75,
+        "loungeValue": 150,
+        "useAdvancedCredits": false,
+        "creditUtilization": 50,
+        "protectionValue": 50,
+        "foreignSpendPct": 5
+      }
+    },
+    {
+      "id": "frequent_flyer",
+      "label": "International Traveler",
+      "summary": "Heavy flights, hotels, dining & 25% foreign spend",
+      "monthly": {
+        "dining": 850,
+        "groceries": 450,
+        "travel": 1400,
+        "gas": 120,
+        "streaming": 120,
+        "online_shopping": 450,
+        "rent": 0,
+        "other": 1200
+      },
+      "preferences": {
+        "redemptionMode": "points",
+        "feeTolerance": "any",
+        "pointCpp": 1.9,
+        "loungeValue": 300,
+        "useAdvancedCredits": false,
+        "creditUtilization": 60,
+        "protectionValue": 75,
+        "foreignSpendPct": 25
+      }
+    },
+    {
+      "id": "family_household",
+      "label": "Suburban Family",
+      "summary": "High groceries, gas & general spend",
+      "monthly": {
+        "dining": 500,
+        "groceries": 1250,
+        "travel": 350,
+        "gas": 420,
+        "streaming": 140,
+        "online_shopping": 600,
+        "rent": 0,
+        "other": 1500
+      },
+      "preferences": {
+        "redemptionMode": "cashback",
+        "feeTolerance": "any",
+        "pointCpp": 1.25,
+        "loungeValue": 50,
+        "useAdvancedCredits": false,
+        "creditUtilization": 30,
+        "protectionValue": 30,
+        "foreignSpendPct": 0
+      }
+    },
+    {
+      "id": "no_fee_minimalist",
+      "label": "Modest $0-Fee Budget",
+      "summary": "Modest everyday spend, cash-back mode & $0 annual fee cards only",
+      "monthly": {
+        "dining": 350,
+        "groceries": 450,
+        "travel": 150,
+        "gas": 180,
+        "streaming": 60,
+        "online_shopping": 250,
+        "rent": 0,
+        "other": 600
+      },
+      "preferences": {
+        "redemptionMode": "cashback",
+        "feeTolerance": "zero",
+        "loungeValue": 0,
+        "useAdvancedCredits": false,
+        "creditUtilization": 50,
+        "protectionValue": 0,
+        "foreignSpendPct": 0
+      }
+    }
+  ],
+  "perkPresets": [
+    {
+      "id": "ignore",
+      "label": "Ignore Perks ($0)",
+      "description": "Zero lounges, zero credits, zero protections — pure spend math only.",
+      "values": {
+        "loungeValue": 0,
+        "creditUtilization": 0,
+        "useAdvancedCredits": false,
+        "creditBreakdown": {
+          "broadTravel": 0,
+          "portalHotel": 0,
+          "airlineIncidental": 0,
+          "diningRideshare": 0,
+          "streamingLifestyle": 0
+        },
+        "protectionValue": 0
+      }
+    },
+    {
+      "id": "easy",
+      "label": "Easy Credits",
+      "description": "Values automatic travel credits at 80% while discounting coupon-book & airline fee credits.",
+      "values": {
+        "loungeValue": 0,
+        "creditUtilization": 35,
+        "useAdvancedCredits": true,
+        "creditBreakdown": {
+          "broadTravel": 80,
+          "portalHotel": 35,
+          "diningRideshare": 25,
+          "streamingLifestyle": 10,
+          "airlineIncidental": 10
+        },
+        "protectionValue": 0
+      }
+    },
+    {
+      "id": "lounges",
+      "label": "Lounge + Perks",
+      "description": "For frequent travelers who use airport lounges ($175/yr), travel credits & card protections.",
+      "values": {
+        "loungeValue": 175,
+        "creditUtilization": 60,
+        "useAdvancedCredits": true,
+        "creditBreakdown": {
+          "broadTravel": 90,
+          "portalHotel": 65,
+          "diningRideshare": 55,
+          "streamingLifestyle": 35,
+          "airlineIncidental": 35
+        },
+        "protectionValue": 60
+      }
+    }
+  ],
+  "defaultPreferences": {
+    "redemptionMode": "points",
+    "pointCpp": 1.75,
+    "useCustomEcosystemCpp": false,
+    "ecosystemCpp": {
+      "chase_ur": 1.85,
+      "amex_mr": 1.75,
+      "c1_miles": 1.65,
+      "citi_ty": 1.7,
+      "bilt": 1.85,
+      "wells_fargo": 1.45
+    },
+    "bofaTier": "none",
+    "loungeValue": 0,
+    "creditUtilization": 35,
+    "useAdvancedCredits": true,
+    "creditBreakdown": {
+      "broadTravel": 80,
+      "portalHotel": 35,
+      "airlineIncidental": 10,
+      "diningRideshare": 25,
+      "streamingLifestyle": 10
+    },
+    "hotelNightValue": 0,
+    "protectionValue": 0,
+    "foreignSpendPct": 0,
+    "rentLocation": "usa",
+    "includeMembershipCards": false,
+    "countMembershipFees": true,
+    "includeWelcomeBonus": false,
+    "timeHorizon": "ongoing",
+    "rotatingCapture": 1,
+    "maxCards": "auto",
+    "feeTolerance": "any",
+    "excludedCardIds": [],
+    "lockedCardIds": []
+  },
+  "defaultReferrals": {
+    "capital-one-venture-x": {
+      "cardId": "capital-one-venture-x",
+      "code": "",
+      "url": "https://capital.one/3uDAx57",
+      "bonusNote": "Frugal Not Cheap's current primary travel card — 2x everything, $300 travel credit & lounge access.",
+      "active": true
+    },
+    "capital-one-savor": {
+      "cardId": "capital-one-savor",
+      "code": "",
+      "url": "https://capital.one/3LWpbic",
+      "bonusNote": "3% cash back on dining, entertainment, groceries & streaming — $0 annual fee & 0% foreign transaction fees.",
+      "active": true
+    },
+    "chase-freedom-unlimited": {
+      "cardId": "chase-freedom-unlimited",
+      "code": "",
+      "url": "https://www.referyourchasecard.com/18s/6BRK3M31SB",
+      "bonusNote": "Great $0-annual-fee 1.5x everyday earner (+ 3x dining & drugstores) via Frugal Not Cheap.",
+      "active": true
+    },
+    "chase-freedom-flex": {
+      "cardId": "chase-freedom-flex",
+      "code": "",
+      "url": "https://www.referyourchasecard.com/18s/6BRK3M31SB",
+      "bonusNote": "Great $0-annual-fee card with 5% rotating categories, 3x dining & 0% foreign transaction fees.",
+      "active": true
+    },
+    "chase-bonvoy-bold": {
+      "cardId": "chase-bonvoy-bold",
+      "code": "",
+      "url": "https://www.referyourchasecard.com/252x/C6TEN5IQXN",
+      "bonusNote": "A $0-annual-fee, 0% foreign-transaction-fee hotel & everyday earner via Frugal Not Cheap.",
+      "active": true
+    },
+    "bofa-travel-rewards": {
+      "cardId": "bofa-travel-rewards",
+      "code": "",
+      "url": "https://www.bankofamerica.com/refer?prod=tr&refid=ECSKAIKR-CTRC01",
+      "bonusNote": "A $0-annual-fee, 0% foreign-transaction-fee 1.5x flat travel card via Frugal Not Cheap.",
+      "active": true
+    },
+    "bofa-customized-cash": {
+      "cardId": "bofa-customized-cash",
+      "code": "",
+      "url": "https://www.bankofamerica.com/refer?prod=ccr&refid=ECSKAIKR-CCCR01",
+      "bonusNote": "Earn 3% cash back in the category of your choice (+ 2% groceries) with $0 annual fee.",
+      "active": true
+    }
+  }
+}

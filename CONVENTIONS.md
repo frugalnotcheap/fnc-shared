@@ -78,18 +78,54 @@ Stale-While-Revalidate dataset loader with instant cache-busting.
 
 ---
 
-## Updating `data/manifest.json`
+## Shared Datasets (`data/*.json`)
 
-Whenever any script in `scripts/*.js` creates or modifies a JSON file in `data/`, it **must** call `updateManifest` from `scripts/update-manifest.js` to stamp `data/manifest.json` with the current Unix timestamp:
+All datasets live in `data/` alongside `data/manifest.json` and include `"schemaVersion": 1` at the top level:
 
-```js
-import { updateManifest } from './update-manifest.js';
+- **`data/cards.json`**: Credit card catalog (`{ schemaVersion, lastVerified, cards: Card[] }`). Each card includes `id`, `name`, `issuer`, `network`, `ecosystem`, `rewardUnit`, `standaloneCpp`, `pooledCpp`, `annualFee`, `foreignTransactionFeePct`, `welcomeBonusValue`, `welcomeBonusText`, `baseRate`, `categoryRates`, `perks`, `cardGradient`, `cardTextTone`, and `highlights`.
+- **`data/historical-returns.json`**: Historical market return series (`{ schemaVersion, dataset, period, checksum, historicalDatasets, annualTuples }`). `annualTuples` holds `[year, stock, bond, cash, inflation]` rows; `historicalDatasets` holds named stress-test windows (`1929`, `1973`, `2000`, `2008`, `2022`).
+- **`data/federal-tax-laws.json`**: Federal tax parameters by year (`{ schemaVersion, dataset, lawsByYear: Record<Year, FederalTaxLaw> }`), including `brackets`, `standardDeductions`, `ltcg`, `irmaaThresholds`, `contribLimits`, `hsaLimits`, `aca`, `niit`, `rmdTable`, and `indexing`.
+- **`data/state-tax-laws.json`**: U.S. state tax rules (`{ schemaVersion, dataset, asOfYear, states: Record<StateCode, StateTaxLaw> }`), including `type` (`none` | `flat` | `progressive`), `brackets`, `standardDeduction`, `personalExemption`, `ssTaxation`, `retirementIncomeExclusion`, `estateTax`, and `inheritanceTax`.
 
-await updateManifest('tax-brackets.json');
-```
+---
 
-Or via CLI:
+## Patch Scripts (`scripts/*.js`)
+
+Whenever any script in `scripts/*.js` creates or modifies a JSON file in `data/`, it **must** call `updateManifest` from `scripts/update-manifest.js` to stamp `data/manifest.json` with the current Unix timestamp.
+
+### `scripts/update-manifest.js`
+
+Stamp one or more dataset filenames in `data/manifest.json`:
 
 ```bash
-node scripts/update-manifest.js tax-brackets.json
+node scripts/update-manifest.js cards.json federal-tax-laws.json historical-returns.json state-tax-laws.json
+```
+
+### `scripts/update-returns.js`
+
+Append or update an annual `[year, stock, bond, cash, inflation]` tuple in `data/historical-returns.json`, refresh `period` and SHA-256 `checksum`, and stamp `data/manifest.json`:
+
+```bash
+node scripts/update-returns.js --year 2025 --stock 0.142 --bond 0.041 --cash 0.045 --inflation 0.026
+```
+
+### `scripts/update-taxes.js`
+
+Deep-merge a patch into `data/federal-tax-laws.json` (optionally cloning a prior year) or `data/state-tax-laws.json`, and stamp `data/manifest.json`:
+
+```bash
+# Federal tax year update (with optional --clone-from)
+node scripts/update-taxes.js --federal --year 2028 --clone-from 2027 --file patch-2028.json
+
+# State tax law update
+node scripts/update-taxes.js --state CA --as-of-year 2027 --json '{"standardDeduction":{"single":5700}}'
+```
+
+### `scripts/upsert-card.js`
+
+Insert or update a card by `id` in `data/cards.json`, update `lastVerified`, and stamp `data/manifest.json`:
+
+```bash
+node scripts/upsert-card.js --file new-card.json --last-verified "Nov 2026"
+node scripts/upsert-card.js --json '{"id":"chase-sapphire-preferred","annualFee":95}'
 ```
