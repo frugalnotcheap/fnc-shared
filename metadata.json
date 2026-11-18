@@ -1,0 +1,6 @@
+{
+  "name": "fnc-shared",
+  "description": "Lightweight, zero-build ES2022 shared module library for FNC apps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

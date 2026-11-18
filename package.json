@@ -1,0 +1,38 @@
+{
+  "name": "fnc-shared",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    },
+    "./schema": {
+      "types": "./src/schema.d.ts",
+      "import": "./src/schema.js"
+    },
+    "./handoff": {
+      "types": "./src/handoff.d.ts",
+      "import": "./src/handoff.js"
+    },
+    "./bugReporter": {
+      "types": "./src/bugReporter.d.ts",
+      "import": "./src/bugReporter.js"
+    },
+    "./dataLoader": {
+      "types": "./src/dataLoader.d.ts",
+      "import": "./src/dataLoader.js"
+    }
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "^7.0.2"
+  }
+}
