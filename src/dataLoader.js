@@ -1,5 +1,5 @@
 export const CDN_BASE_URL =
-  'https://cdn.jsdelivr.net/gh/YOUR_GITHUB_USERNAME/fnc-shared@main/data';
+  'https://cdn.jsdelivr.net/gh/frugalnotcheap/fnc-shared@main/data';
 
 const CACHE_KEY_PREFIX = 'fnc_cache_';
 
